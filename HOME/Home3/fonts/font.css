@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Jura-Light';
+  src: url('Jura-Light.eot');
+  src: url('Jura-Light.eot?#iefix') format('embedded-opentype'),
+       url('Jura-Light.svg#Jura-Light') format('svg'),
+       url('Jura-Light.ttf') format('truetype'),
+       url('Jura-Light.woff') format('woff'),
+       url('Jura-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
