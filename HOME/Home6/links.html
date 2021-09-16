@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=UTF-8>
+    <title>LINKS</title>
+    <style>
+
+        a{
+            color: green;
+            font-size: 20px;
+        }
+        ul {
+                    display: block;
+                    padding-inline-start: 0px;
+                    
+}
+        .first li { 
+                    display: inline;
+                    font-size: 20px;
+                    border-right: solid red 3px; 
+                    padding: 5px 10px 10px 0 
+        }
+       
+                      
+                
+        .second a::after {
+            content: '|';
+            color:red;
+            font-size: 50px;;
+        }
+
+       
+        
+        a:hover {   color: red;
+        }
+                     
+        </style>
+        
+  </head>
+  <body>
+      
+<!-- ссылки расположены в строку через ul, а разделители через  border-right. Из плюсов: просто. Из минусов: много лишних описаний  -->
+            <div class="first">
+                <ul>
+                    <li><a href="https://ru.wikipedia.org/wiki/Вики">первая ссылка</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/Язык_разметки">вторая ссылка</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/TeX">третья ссылка</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/Шрифт">четвёртая ссылка</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/Курсив">пятая ссылка</a></li>
+                </ul>
+                
+            </div>
+                
+           
+     <br>
+     <!-- ссылки расположены в строку через div, а разделители через  :after. Из плюсов: быстро и практично. Из минусов: не обнаружила  -->
+            <div class="second">
+                <a href='https://ru.wikipedia.org/wiki/Вики'>первая ссылка</a> 
+                <a href='https://ru.wikipedia.org/wiki/Язык_разметки'>вторая ссылка</a>
+                <a href='https://ru.wikipedia.org/wiki/TeX'>третья ссылка</a>
+                <a href='https://ru.wikipedia.org/wiki/Шрифт'>четвёртая ссылка</a>
+                <a href='https://ru.wikipedia.org/wiki/Курсив'>пятая ссылка</a>
+            
+            </div>
+
+                
+    
+</body>
+</html>
