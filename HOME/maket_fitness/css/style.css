@@ -85,7 +85,7 @@ header{
 }
 
 header .logo{
-    margin-top: 30px;
+    margin-top: 37px;
     float: left;
 }
 
@@ -104,13 +104,11 @@ header nav ul li a{
     text-decoration: none;
     color: #5e5d5d;
     font-family: "raleway-regular", arial;
-    font-size: 14px;
+    font-size: 24px;
     letter-spacing: .5px;
+   
 
-    transition:all .2s linear;
-    -o-transition:all .2s linear;
-    -moz-transition:all .2s linear;
-    -webkit-transition:all .2s linear;
+    
 }
 
 header nav ul li a:hover,
