@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAKET_FORM</title>
+    <style>
+
+ input[type=text], textarea{
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  box-sizing: content-box;
+  resize: both;
+}
+ select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+  }
+
+
+label {
+  padding: 12px 12px 12px 0;
+  display:inline-block;}
+
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 20px;
+  
+  
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75 {
+    width: 100%;
+    margin-top: 0;
+    
+  }
+ 
+  span{
+    display: block;
+      
+  }
+ 
+}
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        Для публикации вашей статьи заполните, пожалуйста, следующую форму: 
+        <form action="http://fe.it-academy.by/TestForm.php" method="post"> 
+            <!--Название-->
+          <div class="row">
+            <div class="col-25">
+              <label for="name">Название статьи:</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="name" name="title">
+            </div>
+          </div>
+          <!--Рубрика-->
+          <div class="row">
+            <div class="col-25">
+              <label for="rubrika">Рубрика:</label>
+            </div>
+            <div class="col-75">
+                <select id="rubrica" name='rubrica'>
+                    <option value=1>компьютерная техника</option>
+                    <option value=2>графика и дизайн</option>
+                    <option value=3 selected>программирование</option>
+                    </select>
+            </div>
+          </div>
+          <!--Публикация-->
+          <div class="row">
+            <div class="col-25">
+              <label for="publik">Публикация:</label>
+            </div>
+            <div class="col-75">
+                <span> <input type='radio' id="public" name='public' style="vertical-align:middle;margin:0;" value=1>на сайте</span>
+                <span><input type='radio' id="public" name='public'style="vertical-align:middle;margin:0;" value=2 >в журнале</span>
+               <span><input type='radio' id="public" name='public'style="vertical-align:middle;margin:0;" value=3> на сайте и в журнале</span>
+            </div>
+          </div>
+          <!--комментарии-->
+          <div class="row">
+            <div class="col-25">
+              <label for="comment">Разрешить комментарии:</label>
+            </div>
+            <div class="col-75">
+                <input type='checkbox' id="comment" name='comments' >
+            </div>
+          </div>
+            <!--текст-->
+           <div class="row">
+            <div class="col-25">
+              <label for="text">Текст статьи:</label> 
+            </div>
+            <div class="col-75">
+                <textarea id="text" name="text" style="height:50px"></textarea>
+            </div>
+          </div>
+            <!--кнопка-->
+          <div class="row">
+            <input type="submit" value="Опубликовать">
+          </div>
+        </form>
+      </div>
+
+    </body>
+    </html>
