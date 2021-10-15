@@ -1,0 +1,84 @@
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ /*анимирован всегда*/
+  .always {
+    background: white;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: pulsing 2s infinite;
+    animation: pulsing 2s infinite;
+  }
+  
+  @-webkit-keyframes pulsing {
+    0% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5)
+    }
+    50% {
+      -webkit-transform: scale(1.0, 1.0);
+      transform: scale(1.0, 1.0);
+    }
+    100% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5);
+    }
+  }
+  
+  @keyframes pulsing {
+    0% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5)
+    }
+    50% {
+      -webkit-transform: scale(1.0, 1.0);
+      transform: scale(1.0, 1.0);
+    }
+    100% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5);
+    }
+  }
+
+ /*при наведении на контейнер1*/
+
+ @keyframes MyAnimation1
+{
+    from { color: black; }
+    to { color: white; }
+}
+.anim1
+{
+   
+    width: 250px;
+    height: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+}
+
+
+.container:hover
+{
+    animation: MyAnimation1 1s infinite;
+            
+}
+ 
+/*при наведении на контейнер2*/
+
+.scale {
+    width: 100px;
+    height: 100px;
+    margin-left: 180px;
+    margin-top: 60px;
+    transition: 1s; 
+   }
+   .scale:hover {
+    transform: scale(1.2); 
+   }
