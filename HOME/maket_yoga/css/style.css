@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-image: url(../img/logogirl.jpg);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 762px;
+}
+
+.header-info{
+    margin: 0 auto;
+    width: 1370px;
+    height:111px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.contacts a{
+    color: #E9E9E9;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+.btnlogo{
+    height: 571px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.btnlogo button{
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    width: 169px;
+    height: 38px;
+    padding: 13px 0;
+}
+
+          /*shmotki*/
+.scroll{
+    height: 670px;
+}
+.scroll p{
+    border: 0px solid;
+    width: 997px;
+    height: 73px;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 45px;
+    margin-left: 222px;
+
+}         
+.images{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;   
+}
+.podpis{
+    display: flex;
+    justify-content:space-around;
+    width: 1230px;
+    height: 30px;
+    align-items: flex-end;
+}
+.podpis a{
+    font-size: 14px;
+    line-height:21px;
+    color: #757575;
+    margin-right: -116px;
+    margin-top: 17px;
+}
+                     /*gong*/
+.back{
+    width: 1370px;
+    height: 777px;
+    background-image: url(../img/gong.jpg);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back p:first-child{
+    font-size: 26px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-top: 56px;
+    margin-bottom: 14px;
+}
+.back p:nth-child(2){
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    
+}
+
+.btngong{
+    height:608px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+
+    
+}
+.btngong button{
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    width:105px;
+    height:36px;
+    padding: 11px 0;
+}
