@@ -100,6 +100,7 @@ a{
 .back{
     width: 1370px;
     height: 777px;
+    margin-top: 55px;
     background-image: url(../img/gong.jpg);
     background-repeat: no-repeat;
     margin-left: auto;
@@ -143,6 +144,7 @@ a{
     width:105px;
     height:36px;
     padding: 11px 0;
+   
 }
 
                     /*material*/
@@ -194,7 +196,7 @@ a{
 .famous{
     display: flex;
     width: 1160px;
-    height: 416px;
+    height: 580px;
     justify-content: space-around;
     align-items: flex-start;
     margin-left: auto;
@@ -241,4 +243,165 @@ a{
         margin-bottom: 69px;
      }
 
-  
+            /*bluegirl*/
+.backgirl{
+    width: 1370px;
+    height: 800px;
+    background-image: url(../img/girlblue.jpg);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+  }
+            
+.backgirl p{
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-top: 188px;
+    margin-bottom: 14px;
+}
+.btngirl{
+    height:608px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+
+    
+}
+.btngirl button{
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    width:206px;
+    height:36px;
+    padding: 11px 0;
+    margin-bottom: 35px;
+}
+
+                    /*faces*/            
+.scroll{
+    height: 637px;
+    
+}
+.faceszag p{
+    border: 0px solid transparent;
+    width: 997px;
+    height: 73px;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: left;
+    color: #757575;
+    margin-bottom: -30px;
+    margin-top: 70px;
+    margin-left: 20px;
+
+}         
+.images{
+    width: 1440px;
+    height:780px;
+    overflow: hidden;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.images span{
+    border: 1px solid transparent;
+    border-radius: 25px;
+    position: static;
+    height: 41px;
+    padding: 10px 96px 10px 96px;
+    font-size: 14px;
+    line-height:21px;
+    color: #757575;
+    margin-right: 8px;
+}
+
+                        /*footer*/ 
+footer{
+    width: 1440px;
+    height: 235px;
+}
+
+.decor {
+        top: 100%;
+        height: 130px;
+        width: 400px;
+        margin: 0 auto 0 auto;
+        background: white;
+        border-radius: 30px;
+    }
+.form-inner{
+    width:  1425px; 
+    height: 220px;
+    margin-left: 50px;
+}
+.form-inner input, .form-inner textarea {
+        height: 27px;
+        width: 277px;
+        padding: 0 102px;
+        line-height: 40px;
+        border: 1px solid #9B9B9B ;
+        border-radius: 20px;
+        font-family: 'Roboto', sans-serif;
+     }
+     
+.form-inner textarea {
+        resize: none;
+     }
+.form-inner p {
+        margin-top: 0;
+        margin-left: 63px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #9B9B9B;
+     }
+
+
+.footinfo {
+    width: 1425px;
+    height: 42px;
+    
+}
+.footinfo ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.footinfo a{
+    position: static;
+    color: #8C8C8C;
+    font-size: 14px;
+    margin-right: 20px;
+   
+}
+
+.shipping{
+    width: 1440px;
+    height: 59px;
+    background-color: #EDEDED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.shipping p{
+    font-size: 14px;
+    line-height: 21px;
+    color: #3C3C3C;
+}
