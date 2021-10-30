@@ -54,24 +54,12 @@ a{
     align-items: center;
 }
 
-.header-info ul li{
-    list-style-type: none;
+.header-info ul li a{
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 21px;
     color: #000000;
     margin-right: 35px;
-    
-}
-
-.header-info ul li:last-child{
-    border: 1px solid #373737;
-    background-color: #373737;
-    border-radius: 5px;
-    color: #FFFFFF;
-    padding: 13px 17px 13px 17px;
 }
 
 .backimg{
@@ -826,3 +814,47 @@ form.mail input[type=text] {
     margin-top: 75px;
     margin-left: 52px;
   }
+
+ 
+                 /* page about */
+.aboutus{
+    width: 1299px;
+    height: 710px;  
+}
+
+.oblozhka{
+    width: 1440px;
+    height: 668px;
+    background-image: url(../img/forpages.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.oblozhka h1{
+    width: 1131px;
+    height: 339px;
+    font-family: Roboto;
+    font-size: 50px;
+    line-height: 35px;
+    color: #000000;
+    background: linear-gradient(112.8deg, rgba(207, 207, 207, 0.26) 0%, rgba(207, 207, 207, 0.06) 92.87%);
+    backdrop-filter: blur(30px);
+}
+
+.breadcrumbs{
+    height: 20px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.breadcrumbs a, span{
+    font-family: Roboto;
+    font-size: 10x;
+    line-height: 21px;
+    color: #000000;
+}
+
+.labels img{
+    float: right;
+    border-radius: 5px 0px 0px 5px;
+    margin-top: 202px;
+}
