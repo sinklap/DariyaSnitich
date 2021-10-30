@@ -858,3 +858,64 @@ form.mail input[type=text] {
     border-radius: 5px 0px 0px 5px;
     margin-top: 202px;
 }
+
+
+                 /* page service*/
+.servicepodrobno{
+    width: 1440px;
+    height: 1524px; 
+}
+
+.backdel{
+    width: 1440px;
+    height: 550px;
+    background-image: url(../img/delievery.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.backdel p{
+    width: 1120px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #696161;
+    margin-top: 220px;
+}
+
+.backguar{
+    width: 1440px;
+    height: 550px;
+    background-image: url(../img/trava.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.backguar p{
+    width: 1120px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #696161;
+    margin-top: 220px;
+}
+
+.backqual{
+    width: 1440px;
+    height: 550px;
+    background-image: url(../img/quality.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.backqual p{
+    width: 1120px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #696161;
+    margin-top: 220px;
+}
