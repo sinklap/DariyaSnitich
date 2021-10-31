@@ -913,3 +913,54 @@ form.mail input[type=text] {
     color: #696161;
     margin-top: 220px;
 }
+
+         /* page furniture*/
+.furnit{
+    width: 1440px;
+    height: 1572px;
+    display: flex;
+}
+
+
+.furncat{
+    width: 1440px;
+    height: 1000px;
+    margin-left: 76px;
+}
+
+.form-range {
+    width: 230px;
+    height: 1.5rem;
+    padding: 0;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.choice{
+    width: 265px;
+    height: 880px;
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+    background-color: #EFEFEF;
+    margin-top: 43px;
+}
+
+.choice p{
+    margin-top: 40px;
+    width: 231px;
+    padding-left: 2.5em;
+}
+
+.form-check {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 2.5em;
+    margin-bottom: 0.125rem;
+}
+
+.form-label {
+    margin-left: 10px;
+}
