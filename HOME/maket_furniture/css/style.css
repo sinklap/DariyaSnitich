@@ -641,7 +641,26 @@ form.searchmebel input[type=text] {
 .woman ul li{
         margin-top:84px; 
 }
-
+.previous,.next {
+    /* Добавляет курсору иконку, когда тот оказывается над кнопкой: */
+    cursor: pointer;
+    /* Положение элемента задаётся относительно границ браузера: */
+    
+    margin-top: -22px;
+    padding: 16px;
+    /* Оформление самих кнопок: */
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    /* Плавное появление фона при наведении курсора: */
+    transition: 0.6s ease;
+    /* Скругление границ: */
+    border-radius: 0 3px 3px 0;
+}
+.people.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
 
                 /* footer */
 footer{

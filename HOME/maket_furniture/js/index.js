@@ -1,3 +1,5 @@
+
+// log
 $(function() {
 	$(".btn").click(function() {
 		$(".form-signin").toggleClass("form-signin-left");
