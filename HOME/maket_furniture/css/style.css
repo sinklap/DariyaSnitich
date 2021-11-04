@@ -15,6 +15,8 @@ a{
                     /* header */
 
 .container-head{
+    margin: 0 auto;
+    max-width: 1300px;
     height: 93px;
     display: flex;
     align-items: center;
@@ -24,7 +26,7 @@ a{
     width: 70px;
     height: 29px;
     float: left;
-    margin-left: 35px;
+    margin-left: -61px;
 }
 .logo p{
     font-family: Roboto;
@@ -40,6 +42,7 @@ a{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-right: -82px;
 }
 
 .header-info ul li a{
@@ -67,11 +70,12 @@ a:hover {
     height:762px;
     background-image: url(../img/backgr.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
 
 .linii{
     width: 100%;
+    margin: 0 auto;
     overflow: hidden;
     height: 668px;
     display: flex;
@@ -115,7 +119,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    width: 100%;
+    width: 80%;
     height: 339px;
     margin-top: 160px;
     background: linear-gradient(112.8deg, rgba(207, 207, 207, 0.26) 0%, rgba(207, 207, 207, 0.06) 92.87%);
@@ -278,19 +282,19 @@ hr{
     margin-top: 30px;
 }
  
-.main{
-    max-width: 1399px;
+.wrapper{
+    width: 80%;
     margin: 0 auto;
-    margin-left: 30px;
+    max-width: 1300px;
 }
                 /* service */  
 .service{
+    margin: 0 auto;
     height: 518px;
 }    
 
 .textup2{
     margin-top: 120px;
-    margin-left: 141px;
 }
 .textup2 h5{
     font-family: Roboto;
@@ -321,7 +325,8 @@ hr{
 
 .cards{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-left: -74px;
 }
 
 .cards h3{
@@ -388,7 +393,6 @@ hr{
                     /* catalog */
 .catalog{
     height: 1058px;
-    margin-left: 141px;
 }
 
 .mebel h5{
@@ -545,13 +549,12 @@ form.searchmebel input[type=text] {
 
                         /* clients */
 .clients{
-     height: 389px;
+     height: 515px;
 }
 
 .people{
     display: flex;
-    justify-content: center;
-    margin-left: 140px;
+    justify-content: flex-start;
 }
 
 .man{
@@ -637,15 +640,15 @@ form.searchmebel input[type=text] {
 
                 /* footer */
 .container-footer{
-    max-width: 1399px; ;
+    margin: 0 auto;
+    max-width: 1070px;
     height: 346px; 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 footer{
-    margin: 122px 0 0 0 ;
     width: 100%;
     height: 346px;
     background-color: #373737;
@@ -654,37 +657,26 @@ footer{
 }
 
 .seti{
-    width: 330px;
-    height: 186px;
-    display: flex;
-    flex-direction:column;
-    margin-left: 113px;
+    margin-left: -110px;
 }
 .seti p{
     font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 35px;
     line-height: 41px;
     color: #FFFFFF;
-    margin-bottom: 30px;
-
+    margin-bottom: 20px;
 }
-
-.seti ul{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
 
 .seti ul li a{
     font-family: Roboto;
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
-    display: inline;
-    margin-right: 20px;
+}
+
+.seti ul li{
+    margin-right: 15px;
 }
 
 .fa-phone-alt, .fa-envelope{
@@ -704,20 +696,7 @@ footer{
 }
 
 .linkss{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-left: -245px;
-}
-.linkss ul li{
-    margin: -2px 0 16px -76px;
-}
-.linkss ul li a{
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 16px;
-    color: #FFFFFF;
-    margin-bottom: 15px;
+    margin-left: -150px;
 }
 
 .linkss h3{
@@ -727,63 +706,57 @@ footer{
     line-height: 23px;
     color: #FFFFFF;
     margin-bottom: 30px;
-    margin-left: -40px;
 }
-
-.faq{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    
+.linkss ul li{
+    margin-bottom: 10px;
 }
-.faq ul li{
-    margin: -2px 0 16px -76px;
-}
-.faq ul li a{
+.linkss ul li a{
     font-family: Roboto;
+    font-weight: normal;
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
-    margin-bottom: 15px;
 }
 
 .faq h3{
-    margin-left: -126px;
     font-family: Roboto;
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
     color: #FFFFFF;
     margin-bottom: 30px;
-    margin-left: -167px;
+}
+.faq ul li{
+    margin-bottom: 10px;
 }
 
-.news{
-    display: flex;
-    align-items: center;
-    flex-direction: column;    
-}
-.news ul li{
-    margin: -2px 0 16px -76px;
-}
-.news ul li a{
+.faq ul li a{
     font-family: Roboto;
+    font-weight: normal;
     font-size: 14px;
-    font-weight: 400;
     line-height: 16px;
     color: #FFFFFF;
-    margin-bottom: 15px;
 }
-
+.news{
+    margin-top: -29px;
+    height: 120px;
+    margin-right: 70px;
+}
 .news h3{
-    margin-left: -126px;
     font-family: Roboto;
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
     color: #FFFFFF;
-    margin-left: -162px;
-    margin-bottom: 31px;
+    margin-bottom: 20px;
+    margin-top: -6px;
+
+}
+
+.news ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 form.mail input[type=text] {
@@ -796,8 +769,6 @@ form.mail input[type=text] {
     height: 40px;
     background: #EFEFEF;
     border-radius: 5px;
-    margin-top: -2px;
-    margin-left: 53px;
   }
   
  form.mail button {
@@ -815,11 +786,10 @@ form.mail input[type=text] {
     border-left: none; 
     cursor: pointer;
     border-radius: 5px;
-    margin-left: 10px;
-    margin-top: -2px;
+    margin-left: 7px;
   }
 
-  .news ul li p{
+   .news ul li p{
     font-family: Roboto;
     font-weight: bold;
     font-size: 18px;
@@ -832,8 +802,7 @@ form.mail input[type=text] {
     width: 171px;
     height: 40px;
     padding: 17px 11px 9px 12px;
-    margin-top: 75px;
-    margin-left: 52px;
+    margin-top: 25px;
   }
 
  
@@ -851,9 +820,9 @@ form.mail input[type=text] {
     background-size: cover;
 }
 .main2{
-    max-width: 1220px;
+    width: 80%;
     margin: 0 auto;
-    margin-left: 141px;
+    max-width: 1300px;
 }
 .breadcrumbs{
     height: 20px;
@@ -872,7 +841,11 @@ form.mail input[type=text] {
 .servicepodrobno{
     height: 1524px; 
 }
-
+.main5{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1440px;
+}
 .backdel{
     max-width: 1440px;
     height: 550px;
@@ -929,13 +902,13 @@ form.mail input[type=text] {
 
          /* page furniture*/
 .furnit{
-    height: 1572px;
+    height: 2018px;
     display: flex;
 }
 .main3{
-    max-width: 1220px;
+    width: 80%;
     margin: 0 auto;
-    margin-left: 30px;
+    max-width: 1300px;
 
 }
 .furncat{
