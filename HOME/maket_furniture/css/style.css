@@ -119,7 +119,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    width: 80%;
+    width: 100%;
     height: 339px;
     margin-top: 160px;
     background: linear-gradient(112.8deg, rgba(207, 207, 207, 0.26) 0%, rgba(207, 207, 207, 0.06) 92.87%);
@@ -461,7 +461,6 @@ form.searchmebel input[type=text] {
 .tovar{
     display: flex;
     height: 518px;
-    margin-left: 2px;
    }
 .tovar ul{
     display: flex;
