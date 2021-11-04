@@ -16,7 +16,7 @@ a{
 
 .container-head{
     margin: 0 auto;
-    max-width: 1300px;
+    max-width: 1400px;
     height: 93px;
     display: flex;
     align-items: center;
@@ -26,7 +26,6 @@ a{
     width: 70px;
     height: 29px;
     float: left;
-    margin-left: -61px;
 }
 .logo p{
     font-family: Roboto;
@@ -42,7 +41,6 @@ a{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: -82px;
 }
 
 .header-info ul li a{
@@ -209,7 +207,7 @@ a:hover {
 
                 /* about us */
 .about{
-    max-width: 1299px;
+    max-width: 1270px;
     height: 518px;
 }
 
@@ -440,7 +438,7 @@ form.searchmebel input[type=text] {
     cursor: pointer;
     border-radius: 5px;
     margin-left: -51px;
-    margin-right: 113px;
+    margin-right: 109px;
     margin-top: -11px;
   }
   
@@ -459,6 +457,7 @@ form.searchmebel input[type=text] {
     margin-right: 30px;
 }
 .tovar{
+    width: 1215px;
     display: flex;
     height: 518px;
    }
@@ -590,7 +589,7 @@ form.searchmebel input[type=text] {
     }
 
  .man ul{
-    margin-left: 146px;
+    margin-left: 186px;
  }
  .man ul li{
     margin-top:84px; 
@@ -630,7 +629,7 @@ form.searchmebel input[type=text] {
     }
 
 .woman ul{
-        margin-left: 146px;
+        margin-left: 186px;
  }
 .woman ul li{
         margin-top:84px; 
@@ -656,7 +655,7 @@ footer{
 }
 
 .seti{
-    margin-left: -110px;
+    margin-left: -70px;
 }
 .seti p{
     font-family: Roboto;

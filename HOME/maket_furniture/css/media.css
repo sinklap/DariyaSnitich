@@ -1,0 +1,593 @@
+@media all and (max-width: 1370px){
+    .logo{
+        margin-left: 20px;
+    }
+    .wrapper{
+        margin-left: 80px;
+    }
+}
+
+@media all and (max-width: 1315px){
+    .logo{
+        margin-left: 23px;
+    }
+    .infoabout{
+        max-width: 1180px;
+    }
+    .wrapper{
+        margin-left: 70px;
+    }
+}
+
+@media all and (max-width: 1300px){
+    .logo{
+        margin-left: 26px;
+    }
+    
+    .wrapper{
+        margin-left: 60px;
+    }
+
+    .about {
+        max-width: 1210px;
+    }
+}
+
+@media all and (max-width: 1290px){     
+    .wrapper{
+        margin-left: 50px;
+    }
+ 
+}
+
+@media all and (max-width: 1280px){
+    .wrapper{
+        margin-left: 40px;
+    }
+    .tovar {
+        width: 1185px;
+    }
+}
+
+@media all and (max-width: 1270px){
+    .wrapper{
+        margin-left: 30px;
+    }
+    .tovar{
+        width: 1185px;
+    }   
+}
+
+@media all and (max-width: 1260px){
+    .labels p {
+        max-width: 540px;
+    }
+ 
+    #room {
+        width: 400px;
+        }
+    .labels ul {
+        max-width: 80px;
+        display: flex;
+        margin-left: -217px;
+        margin-top: 30px;
+    }
+    .labels ul li {
+        margin-right: 61px;
+}
+    .delivery, .guarantee, .quality {
+        min-width: 300px;
+        margin-right: 0px;
+}
+    .catalog {
+        height: 1335px;
+}
+    form.searchmebel button {
+        margin-right: 30px;
+    }
+    .about{
+        max-width: 980px;
+    }
+    .tovar {
+        width: 945px;
+    }
+    .categories ul li a {
+        font-size: 15px;
+        margin-right: 20px;
+    }
+
+    .view {
+        margin-top: 400px;
+        margin-left: 655px;
+    }
+
+    .man p {
+        width: 267px;
+    }
+    .woman p {
+        width: 267px;
+    }
+
+    .man {
+        width: 449px;
+        margin-bottom: 10px;
+    }
+
+    .woman {
+        width: 450px;
+    }
+    .container-footer {
+        max-width: 890px;
+    }
+
+    .reward {
+        max-width: 723px;
+        margin-left: 323px;
+}
+}
+
+@media all and (max-width: 1080px){
+    .container-footer {
+        margin-left: 95px;
+    }
+}
+
+@media all and (max-width: 1000px){
+    .container-footer {
+        margin-left: 95px;
+    }
+    .reward ul {
+        max-width: 1131px;
+        margin-left: 80px;
+        margin-top: -215px;
+        flex-direction: column;
+    }
+    .reward ul li {
+        margin-bottom: 50px;
+    }
+    .reward h2 {
+        margin-bottom: 0px;
+    }
+    .tovar {
+        width: 888px;
+    }
+    #room {
+        width: 300px;
+    }
+    .labels p {
+        max-width: 415px;
+        font-size: 14px;
+    }
+    .labels a {
+        margin-left: 130px;
+}
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+}
+    .delivery, .guarantee, .quality {
+        margin-right: 30px;
+}
+    .quality{
+        margin-left: 66px;
+        margin-top: 20px;
+}
+    .service {
+        height: 620px;
+}
+    .people {
+        display: flex;
+        flex-direction: column;
+}
+.clients {
+    height: 680px;
+}
+.view a {
+    font-size: 14px;
+    padding: 13px 13px 13px 13px;
+}
+}
+@media all and (max-width: 935px){
+    .tovar {
+        width: 733px;
+    }
+    form.searchmebel input[type=text] {
+        font-size: 16px;
+        width: 225px;
+        height: 35px;
+        margin-top: 14px;
+    }
+    form.searchmebel button {
+        width: 40px;
+        height: 36px;
+        margin-left: -40px;
+        font-size: 16px;
+        margin-top: 14px;
+        margin-right: 67px;
+    }
+    .categories ul {
+        width: 305px;
+        flex-wrap: wrap;
+    }
+    .categories ul li a {
+        font-size: 15px;
+        margin-right: 12px;
+    }
+    .catalog {
+        height: 1775px;
+    }
+    .view {
+        margin-top: 995px;
+        margin-left: 240px;
+    }
+
+    .seti p {
+        font-size: 25px;
+    }
+    .seti ul li a {
+        font-size: 12px;
+    }
+    .seti .fa-facebook-f, .fa-instagram, .fa-twitter, .fa-linkedin-in {
+        font-size: 20px;
+    }
+
+    form.mail input[type=text] {
+        width: 145px;
+        height: 30px;
+    }
+    form.mail button {
+        width: 40px;
+        height: 30px;
+        font-size: 10px;
+        padding: 7px;
+    }
+
+    .news ul li p {
+        width: 145px;
+        height: 35px;
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 860px){
+    .service {
+        height: 940px;
+    }
+    .delivery, .guarantee, .quality {
+        margin-left: 250px;
+    }
+
+    .textup2 {
+        margin-left: 125px;
+    }
+    .fa-phone-alt, .fa-envelope {
+        font-size: 10px;
+        padding: 6px 6px 6px 6px;
+        margin-right: 0px;
+    }
+    .linkss h3 {
+        margin-top: 13px;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+    .linkss ul li a {
+        font-size: 10px;
+    }
+    .faq h3 {
+        margin-top: 13px;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+    .faq ul li a {
+        font-size: 10px;
+    }
+    .news h3 {
+        font-size: 15px;
+        margin-bottom: 15px;
+        margin-top: 4px;
+    }
+    form.mail input[type=text] {
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+    }
+    form.mail button {
+        width: 35px;
+        height: 30px;
+        font-size: 9px;
+    }
+
+    .news ul li p {
+        width: 120px;
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 805px){
+    .header-info ul li a {
+        font-size: 13px;
+    }
+    .linegorizont h3 {
+        width: 339px;
+        font-size: 22px;
+    }
+    .linegorizont p {
+        width: 355px;
+        font-size: 15px;
+    }
+    .linegorizont a {
+        width: 122px;
+        font-size: 15px;
+        padding: 10px 10px 10px 10px;
+    }
+    .lineleft {
+        min-width: 160px;
+    }
+    .seti .fa-facebook-f, .fa-instagram, .fa-twitter, .fa-linkedin-in {
+        font-size: 20px;
+    }
+    .blackbox {
+        max-width: 160px;
+    }
+    .reward ul {
+        margin-left: -80px;
+    }
+    .labels p {
+        max-width: 332px;
+        font-size: 10px;
+    }
+    .labels a {
+        margin-left: 27px;
+        margin-top: -35px;
+        font-size: 12px;
+        width: 120px;
+        height: 39px;
+        padding: 12px 6px 12px 17px;
+    }
+    #room{
+        width: 300px;
+        height: 198px;
+    }
+    .infoabout img {
+        height: 70px;
+        width: 120px;
+    }
+}
+@media all and (max-width: 780px){
+    .textup {
+        max-width: 220px;
+    }
+    .infoabout {
+        max-width: 642px;
+    }
+    .mebel{
+        max-width: 530px;
+    }
+    .tovar {
+        width: 609px;
+    }
+
+    .linkss {
+        margin-left: -65px;
+    }
+}
+
+@media all and (max-width: 680px){
+    .labels p {
+        max-width: 235px;
+        font-size: 10px;
+    }
+    .infoabout {
+        max-width: 408px;
+    }
+    #room{
+        margin-left: 100px;
+        float:none;
+    }
+    .labels p {
+        max-width: 300px;
+        font-size: 7px;
+        margin-left: 100px;
+    }
+    .labels a {
+        margin-left: 190px;
+        margin-top: -73px;
+        font-size: 9px;
+        width: 93px;
+        height: 30px;
+        padding: 8px 6px 8px 17px;
+    }
+    .labels ul li img{
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 30px;
+        width: 60px;
+    }
+    .labels ul li {
+        margin-right: 35px;
+    }
+    .labels ul {
+        margin-left: 113px;
+    }
+    .textup2 {
+        margin-left: 70px;
+    }
+    .textup2 p {
+        width: 331px;
+    }
+    .delivery, .guarantee, .quality {
+        margin-left: 135px;
+    }
+    .tovar {
+        width: 440px;
+    }
+    .categories ul {
+        margin-left: 3px;
+    }
+    .tovar img {
+        width: 180px;
+    }
+    .tovar ul li {
+        width: 190px;
+        height: 330px;
+    }
+
+    .tovar ul li p span {
+        font-size: 12px;
+    }
+    .tovar ul li p:nth-child(2) {
+        max-width: 173px;
+    }
+    .tovar ul li p {
+        width: 185px;
+    }
+    .tovar ul li a {
+         margin: 50px 0 0 10px;
+    }
+    .view {
+        margin-top: 930px;
+        margin-left: 160px;
+    }
+    .catalog {
+        height: 1705px;
+    }
+    .man p {
+        font-size: 12px;
+        width: 215px;
+    }
+    .woman p {
+        font-size: 12px;
+        width: 215px;
+    }
+    .fa-phone-alt, .fa-envelope {
+        font-size: 7px;
+        padding: 3px 3px 3px 3px;
+        margin-right: 0px;
+    }
+    .seti ul li a {
+        font-size: 8px;
+    }
+    .seti .fa-facebook-f, .fa-instagram, .fa-twitter, .fa-linkedin-in {
+        font-size: 12px;
+        margin-left: -4px;
+    }
+    .linkss h3 {
+        margin-top: 25px;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    .linkss ul li a {
+        font-size: 8px;
+    }
+    .faq h3 {
+        margin-top: 25px;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    .faq ul li a {
+        font-size: 8px;
+    }
+    .news h3 {
+        font-size: 10px;
+        margin-bottom: 10px;
+        margin-top: 12px;
+    }
+    form.mail input[type=text] {
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+    }
+    form.mail button {
+        width: 35px;
+        height: 30px;
+        font-size: 9px;
+    }
+
+    .news ul li p {
+        width: 120px;
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 680px){
+    .header-info ul li a {
+        font-size: 8px;
+        margin-right: 15px;
+    }
+    .header-info img{
+        display: none;
+    }
+    .logo p {
+        font-size: 15px;
+    }
+    .fa-facebook-f, .fa-instagram, .fa-twitter {
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 580px){
+    .seti{
+        margin-top: -20px;
+    }
+    .seti p {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+    .fa-phone-alt, .fa-envelope {
+        font-size: 5px;
+        padding: 2px 2px 2px 2px;
+        margin-right: 0px;
+    }
+    .seti ul li a {
+        font-size: 6px;
+    }
+    .seti .fa-facebook-f, .fa-instagram, .fa-twitter, .fa-linkedin-in {
+        font-size: 10px;
+        margin-left: -4px;
+    }
+    .linkss h3 {
+        margin-top: -13px;
+        margin-bottom: 0px;
+        font-size: 8px;
+    }
+    .linkss ul li {
+        margin-bottom: 4px;
+    }
+    .linkss ul li a {
+        font-size: 7px;
+    }
+    .faq h3 {
+        margin-top: -13px;
+        margin-bottom: 0px;
+        font-size: 8px;
+    }
+    .faq ul li {
+        margin-bottom: 4px;
+    }
+    .faq ul li a {
+        font-size: 7px;
+    }
+    .news h3 {
+        font-size: 8px;
+        margin-bottom: 10px;
+        margin-top: 7px;
+    }
+    form.mail input[type=text] {
+        width: 120px;
+        height: 24px;
+        font-size: 9px;
+    }
+    form.mail button {
+        width: 35px;
+        height: 25px;
+        font-size: 8px;
+        padding: 4px;
+    }
+
+    .news ul li p {
+        width: 120px;
+        font-size: 9px;
+        height: 20px;
+        padding: 12px 12px 13px 10px;
+    }
+}
