@@ -42,6 +42,16 @@ a{
     justify-content: flex-end;
     align-items: center;
 }
+#knopkaorder{
+    width: 120px; 
+    height: 47px; 
+    border: 1px solid #373737; 
+    background-color: #373737; 
+    border-radius: 5px; 
+    color: #FFFFFF; 
+    padding: 13px 17px 13px 17px; 
+    margin-right: 35px;
+}
 
 .header-info ul li a{
     font-family: Roboto;

@@ -418,6 +418,9 @@
     .delivery, .guarantee, .quality {
         margin-left: 135px;
     }
+    .guarantee{
+        margin-top: 20px;
+    }
     .tovar {
         width: 440px;
     }
@@ -526,6 +529,10 @@
 }
 
 @media all and (max-width: 580px){
+    #knopkaorder{
+        padding: 3px 3px 3px 5px;
+        font-size: 7px;
+    }
     .seti{
         margin-top: -20px;
     }
@@ -591,3 +598,136 @@
         padding: 12px 12px 13px 10px;
     }
 }
+
+@media all and (max-width: 500px){
+    .backimg {
+        width: 520px;
+    }
+    #knopkaorder{
+        padding: 3px 3px 3px 5px;
+        font-size: 7px;
+    }
+    .lineleft {
+        min-width: 100px;
+    }
+    .lineleft ul {
+        margin-left: 48px;
+    }
+    .linegorizont p {
+        color: black;
+        width: 240px;
+        font-size: 14px;
+    }
+    .linegorizont h3 {
+        width: 290px;
+        font-size: 20px;
+    }
+    .blackbox {
+        max-width: 100px;
+    }
+    .reward ul {
+        margin-left: -136px;
+    }
+    footer {
+        height: 190px;
+        width: 520px;
+    }
+    .container-footer {
+        height: 190px;
+    }
+    form.mail input[type=text] {
+        width: 80px;
+        font-size: 5px;
+    }
+    form.mail button {
+        width: 20px;
+        height: 20px;
+        font-size: 5px;
+        padding: 0px;
+        margin-top: 3px;
+        background: #373737;
+        color: white;
+        border: 1px solid #373737;
+        margin-left: -21px;
+}
+    .news h3 {
+        margin-top: 10px;
+}
+    .news ul li p {
+        width: 80px;
+        font-size: 8px;
+        padding: 10px 12px 13px 10px;
+    }
+    .container-head {
+        height: 60px;
+    }
+}
+
+@media all and (max-width: 375px){
+    .container-head {
+        width: 460px;
+    }
+    .logo {
+        margin-left: 108px;
+    }
+    .reward h2 {
+        font-size: 30px;
+    }
+    #room {
+        width: 250px;
+        height: 155px;
+        margin-left: 120px;
+    }
+    .labels p {
+        max-width: 253px;
+        font-size: 6px;
+        margin-left: 125px;
+    }
+    .labels a {
+        margin-left: 202px;
+        font-size: 7px;
+        width: 80px;
+        height: 25px;
+        padding: 7px 6px 8px 18px;
+    }
+    .labels ul li img {
+        margin-left: 13px;
+        height: 25px;
+        width: 50px;
+    }
+    .mebel p {
+        width: 308px;
+        text-align: left;
+        margin: 0 auto 0 59px;
+    }
+    form.searchmebel input[type=text] {
+        margin-top: 26px;
+        margin-left: 58px;
+        margin-bottom: 25px;
+    }
+    form.searchmebel button {
+        margin-top: 27px;
+        margin-right: 0;
+        font-size: 12px;
+    }
+    .categories ul li a {
+        font-size: 9px;
+    }
+    .categories ul {
+        flex-wrap: nowrap;
+        margin-left: 40px;
+        margin-bottom: 0px;
+    }
+    .mebel h5 {
+        text-align: left;
+        font-size: 25px;
+        margin: 0px auto 15px 58px;
+    }
+    .textup2 {
+        margin-top: 90px;
+    }
+    .clients {
+        height: 715px;
+    }
+}
+    
