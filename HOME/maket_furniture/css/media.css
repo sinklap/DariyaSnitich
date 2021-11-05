@@ -936,3 +936,20 @@
 }
 
                 /* page service*/
+ @media all and (max-width: 400px){
+    .main5 {
+        margin-left: 118px;
+    }
+    .backdel p {
+        font-size: 14px;
+        margin-top: 45px;
+    }
+    .backguar p {
+        font-size: 14px;
+        margin-top: 45px;
+    }
+    .backqual p {
+        font-size: 14px;
+        margin-top: 45px;
+    }
+}
