@@ -888,7 +888,7 @@ form.mail input[type=text] {
 
                  /* page service*/
 .servicepodrobno{
-    height: 1524px; 
+    height: 1665px; 
 }
 .main5{
     width: 80%;
@@ -896,7 +896,7 @@ form.mail input[type=text] {
     max-width: 1440px;
 }
 .backdel{
-    max-width: 1440px;
+    background-size: 100%;
     height: 550px;
     background-image: url(../img/delievery.jpg);
     background-repeat: no-repeat;
@@ -910,11 +910,11 @@ form.mail input[type=text] {
     font-size: 16px;
     line-height: 24px;
     color: #696161;
-    margin-top: 220px;
+    margin-top: 100px;
 }
 
 .backguar{
-    max-width: 1440px;
+    background-size: 100%;
     height: 550px;
     background-image: url(../img/trava.jpg);
     background-repeat: no-repeat;
@@ -928,11 +928,11 @@ form.mail input[type=text] {
     font-size: 16px;
     line-height: 24px;
     color: #696161;
-    margin-top: 220px;
+    margin-top: 100px;
 }
 
 .backqual{
-    max-width: 1440px;
+    background-size: 100%;
     height: 550px;
     background-image: url(../img/quality.jpg);
     background-repeat: no-repeat;
@@ -946,7 +946,7 @@ form.mail input[type=text] {
     font-size: 16px;
     line-height: 24px;
     color: #696161;
-    margin-top: 220px;
+    margin-top: 100px;
 }
 
          /* page furniture*/

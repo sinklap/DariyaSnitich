@@ -388,10 +388,12 @@
         max-width: 300px;
         font-size: 7px;
         margin-left: 100px;
+        line-height: 14px;
+        margin-top: 10px;
     }
     .labels a {
         margin-left: 190px;
-        margin-top: -73px;
+        margin-top: -130px;
         font-size: 9px;
         width: 93px;
         height: 30px;
@@ -931,3 +933,6 @@
     .labels3 img {
         margin-top: -76px;
     }
+}
+
+                /* page service*/
