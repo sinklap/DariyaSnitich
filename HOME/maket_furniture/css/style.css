@@ -26,6 +26,7 @@ a{
     width: 70px;
     height: 29px;
     float: left;
+    margin-left: 40px;
 }
 .logo p{
     font-family: Roboto;
@@ -816,7 +817,7 @@ form.mail input[type=text] {
  
                  /* page about */
 .aboutus{
-    height: 710px;  
+    height: 740px;  
 }
 
 .oblozhka{
@@ -842,6 +843,46 @@ form.mail input[type=text] {
     font-size: 10x;
     line-height: 21px;
     color: #000000;
+}
+.textaboutus{
+    height: 905px;
+}
+.labels3 img{
+    float: left;
+    margin-top: -183px;
+    width: 600px;
+    height: 400px;
+}
+.labels3 p{
+    max-width: 588px;
+    height: 162px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: #373737;
+    float: left;
+    margin-left: 635px;
+    margin-top: 20px;
+}
+.labels2 img{
+    float: left;
+    margin-left: 605px;
+    border-radius: 5px 0px 0px 5px;
+    width: 600px;
+    height: 400px;
+}
+.labels2 p{
+    max-width: 588px;
+    height: 162px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: #373737;
+    float: left;
+    margin-left: 7px;
+    margin-top: -378px;
 }
 
 

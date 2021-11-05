@@ -526,6 +526,7 @@
     .fa-facebook-f, .fa-instagram, .fa-twitter {
         font-size: 12px;
     }
+   
 }
 
 @media all and (max-width: 580px){
@@ -637,7 +638,7 @@
     
     footer {
         height: 190px;
-        width: 520px;
+        width: 530px;
     }
     .container-footer {
         height: 190px;
@@ -737,4 +738,196 @@
         height: 715px;
     }
 }
-    
+    /* page about */
+@media all and (max-width: 1380px){
+    .labels3 p {
+        width: 571px;
+        }
+}
+@media all and (max-width: 1360px){
+    .main2 {
+        margin-left: 110px;
+    }
+}
+@media all and (max-width: 1335px){
+    .main2 {
+        margin-left: 90px;
+    }
+}
+@media all and (max-width: 1315px){
+    .main2 {
+        margin-left: 70px;
+    }
+}
+@media all and (max-width: 1295px){
+    .main2 {
+        margin-left: 50px;
+    }
+}
+@media all and (max-width: 1276px){
+    .main2 {
+        margin-left: 30px;
+    }
+}
+@media all and (max-width: 1255px){
+    .labels2 img {
+        width: 500px;
+        height: 350px;
+        margin-left: 499px;
+    }
+    .labels2 p {
+        max-width: 491px;
+        font-size: 16px;
+        margin-top: -345px;
+    }
+    .labels3 img {
+        width: 500px;
+        height: 350px;
+    }
+    .labels3 p {
+        max-width: 481px;
+        font-size: 16px;
+        margin-left: 518px;
+    }
+}
+@media all and (max-width: 1048px){
+    .labels2 img {
+        width: 400px;
+        height: 300px;
+        margin-left: 400px;
+    }
+    .labels3 img {
+        width: 400px;
+        height: 300px;
+    }
+    .labels2 p {
+        max-width: 393px;
+        font-size: 12px;
+        margin-top: -318px;
+    }
+    .labels3 p {
+        max-width: 382px;
+        font-size: 11px;
+        margin-left: 419px;
+    }
+    .textaboutus {
+        height: 660px;
+    }
+}
+@media all and (max-width: 850px){
+    .labels2 img {
+        width: 300px;
+        height: 200px;
+        margin-left: 299px;
+    }
+    .labels3 img {
+        width: 300px;
+        height: 200px;
+    }
+    .labels2 p {
+        max-width: 292px;
+        font-size: 10px;
+        line-height: 16px;
+        margin-top: -187px;
+    }
+    .labels3 p {
+        max-width: 283px;
+        font-size: 10px;
+        margin-left: 315px;
+        line-height: 16px;
+    }
+    .textaboutus {
+        height: 460px;
+    }
+}
+@media all and (max-width: 650px){
+    .labels2 img {
+        width: 250px;
+        height: 150px;
+        margin-left: 249px;
+    }
+    .labels3 img {
+        width: 250px;
+        height: 150px;
+        margin-top: -176px;
+    }
+    .labels2 p {
+        max-width: 239px;
+        font-size: 7px;
+        line-height: 14px;
+        margin-top: -143px;
+    }
+    .labels3 p {
+        max-width: 239px;
+        font-size: 7px;
+        margin-left: 260px;
+        line-height: 14px;
+        margin-top: -6px;
+    }
+    .textaboutus {
+        height: 370px;
+    }
+}
+@media all and (max-width: 550px){
+    .breadcrumbs {
+        font-size: 10px;
+    }
+    .oblozhka {
+        width: 530px;
+    }
+    .labels2 p {
+        float: none;
+        margin-left: 122px;
+        margin-top: 0px;
+    }
+    .labels2 img {
+        float: none;
+        margin-top: -25px;
+        margin-left: 114px;
+    }
+    .labels2{
+        height: 250px;
+    }
+    .textaboutus {
+        height: 590px;
+    }
+    .labels3 p {
+        float: none;
+        margin-top: 29px;
+        margin-left: 122px;
+    }
+    .labels3 img {
+        float: none;
+        margin-top: -46px;
+        margin-left: 116px;
+    }
+}
+@media all and (max-width: 420px){
+    .labels2 p {
+        font-size: 6px;
+        line-height: 11px;
+        margin-left: 146px;
+    }
+    .labels3 p {
+        float: none;
+        margin-top: 5px;
+        margin-left: 146px;
+        max-width: 191px;
+        font-size: 6px;
+        line-height: 11px;
+    }
+    .textaboutus {
+        margin-left: -42px;
+        height: 510px;
+    }
+    .labels2 p {
+        margin-left: 116px;
+    }
+    .labels3 p {
+        max-width: 238px;
+        margin-top: -9px;
+        margin-left: 116px;
+    }
+    .labels3 img {
+        margin-top: -76px;
+    }
