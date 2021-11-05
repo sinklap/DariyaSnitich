@@ -533,6 +533,12 @@
         padding: 3px 3px 3px 5px;
         font-size: 7px;
     }
+    .man {
+        width: 405px;
+    }
+    .woman {
+        width: 405px;
+    }
     .seti{
         margin-top: -20px;
     }
@@ -628,6 +634,7 @@
     .reward ul {
         margin-left: -136px;
     }
+    
     footer {
         height: 190px;
         width: 520px;
