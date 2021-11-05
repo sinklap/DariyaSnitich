@@ -936,7 +936,7 @@
 }
 
                 /* page service*/
- @media all and (max-width: 400px){
+@media all and (max-width: 400px){
     .main5 {
         margin-left: 118px;
     }
@@ -951,5 +951,152 @@
     .backqual p {
         font-size: 14px;
         margin-top: 45px;
+    }
+}
+
+        /* page furniture*/
+@media all and (max-width: 1340px){
+    .furncat {
+        margin-left: 0px;
+    }
+}
+@media all and (max-width: 1290px){
+    .furncat {
+        margin-left: -20px;
+    }
+}
+@media all and (max-width: 1270px){
+    .furncat {
+        margin-left: -40px;
+    }
+}
+@media all and (max-width: 1250px){
+    .furncat {
+        margin-left: -60px;
+    }
+}
+@media all and (max-width: 1230px){
+    .tovar2 {
+        height: 1468px;
+        width: 590px;
+        margin-left: 164px;
+        overflow-y: hidden;
+    }
+    .furncat {
+        margin-left: 20px;
+    }
+    .furnit {
+        height: 1725px;
+    }
+    .stran {
+        margin-top: 33px;
+        margin-left: 365px;
+    }   
+}
+@media all and (max-width: 1050px){
+    .furncat {
+        margin-left: -10px;
+    }
+}
+@media all and (max-width: 1020px){
+    .furncat {
+        margin-left: -30px;
+    }
+}
+@media all and (max-width: 1000px){
+    .furncat {
+        margin-left: -50px;
+    }
+}
+@media all and (max-width: 980px){
+    .furncat {
+        margin-left: -70px;
+    }
+}
+@media all and (max-width: 960px){
+    .choice {
+        width: 190px;
+    }
+    .choice p {
+        padding-left: 0.5em;
+    }
+    .form-range {
+        width: 189px;
+    }
+    #max {
+        margin-left: 157px;
+    }
+}
+@media all and (max-width: 920px){
+    .tovar2 {
+        height: 1457px;
+        width: 435px;
+    }
+    .tovar2 img {
+        width: 180px;
+    }
+    .tovar2 ul {
+        margin-top: 25px;
+    }
+    .tovar2 ul li {
+        width: 190px;
+        height: 330px;
+    }
+    .tovar2 ul li p span {
+        font-size: 12px;
+    }
+    .tovar2 ul li p:nth-child(2) {
+        max-width: 173px;
+    }
+    .tovar2 ul li p {
+        width: 185px;
+    }
+    .tovar2 ul li a {
+         margin: 50px 0 0 10px;
+    }
+    .stran {
+        margin-left: 290px;
+    }
+}
+@media all and (max-width: 760px){
+    .furncat {
+        margin-left: -90px;
+    }
+}
+@media all and (max-width: 750px){
+    .choice {
+        width: 135px;
+    }
+    .choice p {
+        width: 105px;
+    }
+    .form-check {
+        font-size: 12px;
+    }
+    .form-range {
+        width: 133px;
+    }
+    #max {
+        margin-left: 100px;
+    }
+}
+@media all and (max-width: 690px){
+    .furncat {
+        margin-left: -110px;
+    }
+}
+@media all and (max-width: 665px){
+    .furncat {
+        margin-left: -130px;
+    }
+}
+@media all and (max-width: 650px){
+    .choice {
+        margin-left: -15px;
+    }
+}
+@media all and (max-width: 625px){
+    .furncat {
+        margin-left: -145px;
     }
 }

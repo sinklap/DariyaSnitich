@@ -951,18 +951,20 @@ form.mail input[type=text] {
 
          /* page furniture*/
 .furnit{
-    height: 2018px;
+    height: 2200px;
     display: flex;
 }
+
 .main3{
     width: 80%;
     margin: 0 auto;
     max-width: 1300px;
-
+    margin-left: 20px;
 }
+
 .furncat{
     height: 1000px;
-    margin-left: 76px;
+    margin-left: 40px;
 }
 
 .form-range {
@@ -997,7 +999,87 @@ form.mail input[type=text] {
     padding-left: 2.5em;
     margin-bottom: 0.125rem;
 }
-
+#max{
+    margin-left: 190px;
+}
 .form-label {
     margin-left: 10px;
+}
+
+.tovar2{
+    width: 886px;
+    display: flex;
+    height: 518px;
+    margin-left: 128px;
+   }
+.tovar2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: -3px;
+}
+
+.tovar2 ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 267px;
+    height: 344px;
+    background-color: #F9F9F9;
+    margin-right: 30px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.tovar2 img{
+    margin: 5px 5px 0 5px;
+    border-radius: 5px;
+}
+
+.tovar2 ul li p span {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;  
+}
+
+.tovar2 ul li p:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.tovar2 ul li p {
+    width: 247px;
+    height: 48px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #696161;
+    margin: 0 0 0 10px;
+}
+
+.tovar2 ul li a{
+    width: 101px;
+    height: 40px;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 24px;
+    border: 1px solid #373737;
+    background-color: #373737;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 7px 12px 10px 12px;
+    margin: 13px 0 0 10px ;
+    }    
+
+.stran{
+    margin-top: 1402px;
+    margin-left: 500px;
+}
+.stran a{
+    color: #686868;
 }
