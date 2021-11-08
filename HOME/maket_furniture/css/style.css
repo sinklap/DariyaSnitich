@@ -968,7 +968,7 @@ form.mail input[type=text] {
 }
 
 .form-range {
-    width: 230px;
+    width: 264px;
     height: 1.5rem;
     padding: 0;
     background-color: transparent;
@@ -1026,7 +1026,7 @@ form.mail input[type=text] {
 }
 
 #max{
-    margin-left: 190px;
+    margin-left: 227px;
 }
 .form-label {
     margin-left: 10px;

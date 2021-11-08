@@ -1160,3 +1160,15 @@
         margin-left: 198px;
     }
 }
+@media all and (max-width: 400px){
+    #knopkaorder {
+        padding: 2px 2px 2px 4px;
+        font-size: 6px;
+    }
+}
+@media all and (max-width: 390px){
+    .categories ul {
+        flex-wrap: wrap;
+        margin-top: 70px;
+    }
+}
