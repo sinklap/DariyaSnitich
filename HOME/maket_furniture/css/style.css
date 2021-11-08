@@ -976,29 +976,55 @@ form.mail input[type=text] {
     -moz-appearance: none;
     appearance: none;
 }
-
-.choice{
+.dropbtn {
+    width: 115px;
+    margin-left: 78px;
+    margin-top: 39px;
+    margin-bottom: 33px;
+    background-color: #373737;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: grey;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    width: 161px;
+  }
+  
+.dropdown-content {
+    display: block;
+    position: absolute;
     width: 265px;
     height: 880px;
-    margin-left: 6px;
-    display: flex;
-    flex-direction: column;
+    margin-left: 6px;  
     background-color: #EFEFEF;
-    margin-top: 43px;
 }
 
-.choice p{
+.dropdown-content p{
     margin-top: 40px;
     width: 231px;
     padding-left: 2.5em;
 }
+.show {display:none;}
 
 .form-check {
     display: block;
     min-height: 1.5rem;
-    padding-left: 2.5em;
     margin-bottom: 0.125rem;
 }
+.form-check ul{
+    padding-left: 1rem;
+}
+
 #max{
     margin-left: 190px;
 }

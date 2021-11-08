@@ -964,15 +964,26 @@
     .furncat {
         margin-left: -20px;
     }
+    .dropdown-content{
+        width: 215px;
+    }
 }
 @media all and (max-width: 1270px){
     .furncat {
         margin-left: -40px;
     }
+    .dropbtn {
+        width: 98px;
+        margin-left: 55px;
+        margin-top: 49px;
+    }
 }
 @media all and (max-width: 1250px){
     .furncat {
         margin-left: -60px;
+    }
+    .dropdown-content {
+        width: 195px;
     }
 }
 @media all and (max-width: 1230px){
@@ -1014,10 +1025,10 @@
     }
 }
 @media all and (max-width: 960px){
-    .choice {
+    .dropdown-content {
         width: 190px;
     }
-    .choice p {
+    .dropdown-content p {
         padding-left: 0.5em;
     }
     .form-range {
@@ -1062,12 +1073,21 @@
     .furncat {
         margin-left: -90px;
     }
+    .dropbtn {
+        width: 90px;
+        margin-left: 17px;
+        margin-top: 73px;
+        font-size: 14px;
+    }
+.dropdown-content {
+    width: 160px;
+    }
 }
 @media all and (max-width: 750px){
-    .choice {
+    .dropdown-content {
         width: 135px;
     }
-    .choice p {
+    .dropdown-content p {
         width: 105px;
     }
     .form-check {
@@ -1089,14 +1109,54 @@
     .furncat {
         margin-left: -130px;
     }
-}
-@media all and (max-width: 650px){
-    .choice {
-        margin-left: -15px;
+    .dropdown-content {
+        width: 116px;
     }
 }
-@media all and (max-width: 625px){
-    .furncat {
-        margin-left: -145px;
+@media all and (max-width: 630px){
+    .dropdown-content p {
+        font-size: 8px;
+    }
+    .form-check {
+        font-size: 7px;
+        padding-left: 0.5em;
+    }
+    .form-range {
+        width: 91px;
+        height: 0.5rem;
+    }
+    #max {
+        margin-left: 73px;
+    }
+    .dropdown-content {
+        width: 92px;
+    }
+    .dropbtn {
+        width: 61px;
+        margin-left: 20px;
+        margin-top: 79px;
+        font-size: 8px;
+    }
+    .form-switch .form-check-input {
+        margin-left: -0.5em;
+    }
+    #max {
+        font-size: 9px;
+        margin-left: 71px;
+    }
+    .form-label {
+        margin-left: 4px;
+        font-size: 9px;
+    }   
+}
+@media all and (max-width: 590px){
+    .dropdown-content {
+        display: none;
+    }
+    .tovar2 {
+        margin-left: 69px;
+    }
+    .stran {
+        margin-left: 198px;
     }
 }
