@@ -54,8 +54,29 @@ body {
   justify-content: flex-end;
   align-items: center;
 }
+a {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+}
 
+a:hover {
+  background-size: 100% 2px;
+}
+#knopkaorder{
+  width: 120px; 
+  height: 47px; 
+  border: 1px solid #373737; 
+  background-color: #373737; 
+  border-radius: 5px; 
+  color: #FFFFFF; 
+  padding: 13px 17px 13px 17px; 
+  margin-right: 35px;
+}
 .header-info ul li a{
+  text-transform: capitalize; 
   font-family: Roboto;
   font-size: 18px;
   line-height: 21px;
