@@ -23,12 +23,15 @@
 }
 @media all and (max-width: 580px){
     .header-info ul li a {
-        margin-right: 0px; 
+        margin-right: 8px; 
+    }
+    #knopkaorder {
+    padding: 5px 7px 5px 7px;
     }
 }
 @media all and (max-width: 545px){
         #knopkaorder {
-        margin-right: -9px;
+        margin-right: 14px;
     }
 }
 @media all and (max-width: 490px){
@@ -38,13 +41,14 @@
 }
 @media all and (max-width: 465px){
     .header-info ul li a {
-        margin-right: -4px;
+        margin-right: 11px;
     }
     .container-head {
         justify-content: flex-start;
     }
     .header-info{
         margin-left: -38px;
+        margin-top: -7px;
     }
 }
 @media all and (max-width: 410px){
@@ -64,4 +68,5 @@
 .header-info ul li a {
     font-size: 6px;
     }
+    .btn {
 }
