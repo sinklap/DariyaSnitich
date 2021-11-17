@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration:none;
+}
+
+.mountain{
+    margin: 0 auto;
+    height: 2400px;
+    background-image: url(../img/firstbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+
+/* навигационная панель */
+.nav{
+    max-width: 1284px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 64px;
+    margin-top: 56px;
+}
+.logo{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29px;
+}
+.info ul{
+    display: flex;
+}
+.info ul li:not(:last-child) a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 29px;
+    margin-right: 24px;
+    color: #000000;
+}
+#last{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 29px;
+    margin-right: 24px;
+    background: rgba(253, 180, 97, 0.82);
+    border-radius: 4px;
+    padding: 0px 10px 3px 10px;
+    margin-right: 0;
+}
+.info ul li:last-child a{
+    color: rgba(62, 34, 3, 0.82);
+}
+.container{
+    max-width: 1156px;
+    margin: 0 auto;
+}
+/* текст с кнопками */
+.text1{
+    max-width: 713px;
+    height: 475px;
+    margin-top: 218px;
+}
+.text1 h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.text1 p{
+    max-width: 639px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.btn-primary{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(62, 34, 3, 0.82);
+    background-color: rgba(253, 180, 97, 0.82);
+    border-radius: 8px;
+    border-color:rgba(253, 180, 97, 0.82);
+    padding: 8px;
+    margin-top: 32px;
+    margin-right: 24px;
+}
+.btn-outline-warning{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    border: 3px solid rgba(62, 34, 3, 0.82);
+    color: rgba(62, 34, 3, 0.82);;
+    border-color: rgba(62, 34, 3, 0.82);
+    margin-top: 32px;
+}
+/* фото животных и текст */
+.pics1{
+    max-width: 442px;
+    height: 672px;
+    margin-top: 580px;
+    margin-left: -39px;
+}
+.pictext{
+    max-width:1156px;;
+    display: flex;
+    justify-content: space-between;
+}
+.text2{
+    max-width: 639px;
+    height: 539px;
+    margin-top: 634px;
+}
+.text2 h2{
+    max-width: 550px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.text2 p{
+    max-width: 639px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 30px;
+}
+.text2 a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: rgba(253, 180, 97, 0.82);
+}
+.dogcomment{
+    width: 631px;
+    height: 124px;
+    margin-left: 492px;
+    margin-top: 20px;
+}
+.dogcomment img{
+    float: left;
+    border-radius: 100px; 
+    margin-right: 24px;
+}
+.dogcomment p{
+    max-width: 602px;
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.9);
+}
+#fio{
+    margin-left: 86px;
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 0.6);
+}
+    /* секция2 */
+.stars{
+    margin: 0 auto;
+    height: 2293px;
+    background-image: url(../img/secondbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+.container2{
+    max-width: 1188px;
+    margin: 0 auto;
+}
+.pics2{
+    float: right;
+    margin-top: -85px;
+}
+.text3{
+    max-width: 639px;
+    height: 540px;
+}
+.text3 h2{
+    max-width: 550px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.text3 p{
+    max-width: 639px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 30px;
+}
+.text3 a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: rgba(253, 180, 97, 0.82);
+}
+.comments{
+    width: 631px;
+    height: 315px;
+    margin-top: 122px;
+}
+.comments img{
+    float: left;
+    border-radius: 100px; 
+    margin-right: 24px;
+}
+.comments p{
+    max-width: 631px;
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.9);
+}
+#fio{
+    margin-left: 86px;
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 50px;
+}
+/* текст и кнопки */
+.text4{
+    max-width: 993px;
+    height: 475px;
+    margin-top: 485px;
+}
+.text4 h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.text4 p{
+    max-width: 639px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.9);
+}
+.btn-primary{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(62, 34, 3, 0.82);
+    background-color: rgba(253, 180, 97, 0.82);
+    border-radius: 8px;
+    border-color:rgba(253, 180, 97, 0.82);
+    padding: 8px;
+    margin-top: 32px;
+    margin-right: 24px;
+}
+.btn-outline-warning{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    border: 3px solid rgba(62, 34, 3, 0.82);
+    color: rgba(253, 180, 97, 0.82);
+    border-color: rgba(253, 180, 97, 0.82);
+    margin-top: 32px;
+}
+.copy{
+    margin-top: 255px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
