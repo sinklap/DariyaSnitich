@@ -320,3 +320,318 @@ a{
     line-height: 24px;
     color: rgba(255, 255, 255, 0.6);
 }
+/* медиазапросы */
+
+@media all and (max-width: 1155px){
+    .dogcomment{
+        margin-left: 471px;
+    }
+}
+@media all and (max-width: 1145px){
+    .text2 h2 {
+        font-size: 55px;
+    }
+    .text2 p {
+        max-width: 580px;
+        font-size: 16px;
+    }
+    .dogcomment {
+        margin-left: 330px;
+    }
+}
+@media all and (max-width: 1070px){
+    .pics1 img{
+        width: 400px;
+    }
+    .pics1 {
+        margin-left: 0px;
+    }
+    .pics2 img{
+        width: 400px;
+    }
+    .text3 h2 {
+        font-size: 55px;
+    }
+    .text3 p {
+        max-width: 545px;
+    }
+    .text4 h2 {
+        font-size: 60px;
+    }
+}
+@media all and (max-width: 990px){
+    .info ul li:not(:last-child) a {
+        font-size: 12px;
+    }
+    .info ul li:last-child a {
+        font-size: 12px;
+    }
+    .pics1 img{
+        width: 350px;
+    }
+    .text2 h2{
+        font-size: 46px;
+    }
+    .text2 p{
+        max-width: 469px;
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .text2 a{
+        font-size: 15px;
+    }
+    .dogcomment{
+        margin-left: 50px;
+    }
+    .dogcomment p{
+        font-size: 15px;
+    }
+    .pics2 img{
+        width: 350px;
+    }
+    .text3 h2 {
+        font-size: 46px;
+    }
+    .text3 p {
+        max-width: 469px;
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .text3 a {
+        font-size: 15px;
+    }
+    .comments p {
+        font-size: 15px;
+    }
+    .text4 h2 {
+        font-size: 50px;
+    }
+}
+@media all and (max-width: 780px){
+    .logo {
+        font-size: 10px;
+    }
+    .info ul li:not(:last-child) a{
+        font-size: 9px;
+    }
+    .info ul li:last-child a{
+        font-size: 9px;
+    }
+    .text1 h2 {
+        font-size: 55px;
+    }
+    .text1 p {
+        max-width: 467px;
+        font-size: 16px;
+        line-height: 30px;
+        color: white;
+        border-radius: 8 px;
+        background-color: rgba(62, 34, 3, 0.3);
+    }
+    .text1 {
+        margin-top: 135px;
+    }
+    .pics1 {
+        margin-top: 270px;
+    }
+    .text2 {
+        margin-top: 275px;
+    }
+    .pics2 {
+        margin-top: -112px;
+    }
+    .mountain {
+         height: 2060px;
+    }
+    .comments p {
+        max-width: 492px;
+        font-size: 13px;
+    }
+    .text4 {
+        margin-top: 137px;
+    }
+    .text4 h2 {
+        font-size: 32px;
+    }
+    .text4 p {
+        max-width: 500px;
+        font-size: 15px;
+    }
+    .stars {
+        height: 1939px;
+    }
+}
+@media all and (max-width: 710px){
+    .pics1 img{
+        width: 300px;
+    }
+    .text2 h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .dogcomment p {
+        max-width: 460px;
+    }
+    .pics2 img{
+        width: 300px;
+    }
+    .info ul li:not(:last-child) a {
+        margin-right: 15px;
+    }
+    .text3 {
+        max-width: 320px;
+    }
+    .text3 h2 {
+        font-size: 40px;
+        line-height: 55px;
+        margin-top: -100px;
+    }
+    .text3 p {
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .comments {
+        margin-top: 60px;
+        max-width: 500px;
+    }
+    .text4 h2 {
+        font-size: 28px;
+        line-height: 45px;
+    }
+    .copy {
+        margin-top: 165px;
+    }
+    .stars {
+        height: 1813px;
+    }
+    .container2 {
+        max-width: 538px;
+    }
+    .container {
+        max-width: 600px;
+    }
+    .dogcomment {
+        max-width: 470px;
+    }
+}
+@media all and (max-width: 590px){
+    .logo {
+        margin-left: 179px;
+    }
+    .pics1 img {
+        width: 250px;
+    }
+    .text2 h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .text2 p {
+        max-width: 287px;
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .text2 a {
+        font-size: 10px;
+    }
+    .dogcomment {
+        margin-top: -185px;
+    }
+    .dogcomment p {
+        font-size: 10px;
+        line-height: 23px;
+    }
+    .mountain {
+        height: 1845px;
+    }
+    .pics2 img {
+        width: 250px;
+    }
+    .text3 h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .text3 p {
+        max-width: 290px;
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .text3 a {
+        font-size: 10px;
+    }
+    .comments {
+        margin-top: -45px;
+    }
+    .comments p {
+        max-width: 492px;
+        font-size: 10px;
+        line-height: 19px;
+    }
+    .comments img {
+        width: 45px;
+    }
+    #fio {
+        margin-left: 68px;
+    }
+    .dogcomment img {
+        width: 45px;
+    }
+    .text4 h2 {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .text4 p {
+        max-width: 453px;
+        font-size: 13px;
+    }
+    .stars {
+        height: 1656px;
+    }
+}
+@media all and (max-width: 520px){
+    .info{
+        margin-left: -40px;
+    }
+    .logo {
+        margin-left: 130px;
+    }
+    .text1 h2 {
+        font-size: 36px;
+        line-height: 56px;
+    }
+    .container {
+        max-width: 480px;
+    }
+    .container2 {
+        max-width: 470px;
+    }
+    .text4 {
+        margin-top: 35px;
+    }
+    .stars {
+        height: 1554px;
+    }
+}
+@media all and (max-width: 533px){
+    .nav {
+        margin-top: 8px;
+    }
+    .text1 h2{
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .dogcomment p{
+        max-width: 392px;
+    }
+    .container2{
+        max-width: 480px;
+    }
+    .comments p{
+        max-width: 377px;
+    }
+    .info{
+        margin-left: -26px;
+    }
+    .logo{
+        margin-left: 151px;
+    }
+}
