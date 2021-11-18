@@ -654,12 +654,18 @@ a{
         font-size: 6px;
     }
     .nav {
-        max-width: 410px;
+        max-width: 493px;
     }
     .logo {
-        margin-left: 75px;
+        margin-left: 205px;
     }
     .text1 h2 {
         font-size: 20px;
+    }
+    .info {
+        margin-left: 86px;
+    }
+    .dogcomment p {
+        max-width: 407px;
     }
 }
