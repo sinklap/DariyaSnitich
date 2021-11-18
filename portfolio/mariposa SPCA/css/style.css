@@ -587,6 +587,31 @@ a{
         height: 1656px;
     }
 }
+
+@media all and (max-width: 533px){
+    .nav {
+        margin-top: 8px;
+    }
+    .text1 h2{
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .dogcomment p{
+        max-width: 392px;
+    }
+    .container2{
+        max-width: 480px;
+    }
+    .comments p{
+        max-width: 377px;
+    }
+    .info{
+        margin-left: -26px;
+    }
+    .logo{
+        margin-left: 151px;
+    }
+}
 @media all and (max-width: 520px){
     .info{
         margin-left: -40px;
@@ -610,28 +635,31 @@ a{
     .stars {
         height: 1554px;
     }
-}
-@media all and (max-width: 533px){
+    .mountain {
+        width: 600px;
+    }
     .nav {
-        margin-top: 8px;
+        margin-top: 0px;
     }
-    .text1 h2{
-        font-size: 45px;
-        line-height: 60px;
+    .stars {
+        width: 600px;
     }
-    .dogcomment p{
-        max-width: 392px;
+}
+@media all and (max-width: 490px){
+    .info ul li:not(:last-child) a {
+        margin-right: 10px;
+        font-size: 6px;
     }
-    .container2{
-        max-width: 480px;
+    .info ul li:last-child a {
+        font-size: 6px;
     }
-    .comments p{
-        max-width: 377px;
+    .nav {
+        max-width: 410px;
     }
-    .info{
-        margin-left: -26px;
+    .logo {
+        margin-left: 75px;
     }
-    .logo{
-        margin-left: 151px;
+    .text1 h2 {
+        font-size: 20px;
     }
 }
