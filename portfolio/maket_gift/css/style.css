@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration:none;
+}
+
+   /*header*/
+.header{
+    margin: 0 auto;
+    max-width: 1300px;
+    height: 116px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 116px;
+}
+
+.header ul:first-child li a{
+    display: flex;
+    align-items: center;
+    font-family: 'Homemade Apple';
+    font-size: 18px;
+    color: #231F20;
+}    
+.header ul:nth-child(2){
+    display: flex;
+    align-items: center;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-size: 18px;   
+    margin-left: 123px;
+}
+.header ul:nth-child(2) li a{
+    margin-right: 31px;
+    color: #000000;  
+}
+.header button{
+    display: flex;
+    align-items: center;
+    background: #FAFAFA;
+    padding: 13px 24px;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-size: 18px;  
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #F7941E;
+}
+.header a:hover{
+    text-decoration: underline;
+}
+                /* секция о компании- */
+.about{
+    max-width: 100%;
+    height: 1300px;
+    margin: 0 auto;
+    background-color: #F1F1F2;
+}
+.w14{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.find{
+    height: 700px;
+}
+.textfind{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 433px;
+    margin-left: 162px;
+}
+.textfind h3{
+    max-width: 433px;
+    font-family: Gilroy;
+    margin-top: 154px;
+    margin-bottom: 36px;
+    font-size: 56px;
+    line-height: 69px;
+    color: #000000;
+}
+.textfind span{
+    max-width: 422px;
+    font-family: Gilroy;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 52px;
+}
+.textfind button{
+    font-family: Gilroy;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #F7941E;
+    border-radius: 5px;
+    border: 1px solid #F7941E;
+    padding: 15px 24px 15px 25px;
+    text-transform: uppercase;
+}
+.picfind img{
+    float: right;
+    margin-top: -559px;
+}
+.otkrytka{
+    height: 436px;
+}
+.textotkr{
+    display: flex;
+    flex-direction: column;
+    max-width: 441px;
+    margin-left: 833px;
+    margin-top: 164px;
+}
+.textotkr h6{
+    max-width: 195px;
+    font-family: Gilroy;
+    font-size: 32px;
+    line-height: 45px;
+    color: #000000;
+    margin-bottom: 23px;
+}
+.textotkr span{
+    max-width: 441px;
+    font-family: Gilroy;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 35px;
+}
+.textotkr button{
+    font-family: Gilroy;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #F7941E;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    padding: 14px 46px;
+}
+.picotkr img{
+    float: left;
+    margin-top: -489px;
+}
+
+/* секция подарки */
+.gifts{
+    height: 800px;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.gifttext{
+    margin-top: 96px;
+}
+.gifttext p{
+    font-family: Gilroy;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    text-align: center;
+    max-width: 422px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 23px;
+}
+.gifttext span{
+    display: block;
+    font-family: Gilroy;
+    font-size: 18px;
+    line-height: 135.94%;
+    text-align: center;
+    color: #000000;
+    max-width: 454px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.cards4{
+    max-width: 1170px;
+    height: 436px;
+    display: flex;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 270px;
+    height: 436px;
+    background: #FAFAFA;
+    margin-right: 30px;
+    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
+}
+.cards span{
+    font-family: Gilroy;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-left: 24px;
+}
+.cards a{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-left: 24px;
+}
+/* оранжевая полоса */
+.polosa{
+    max-width: 100%;
+    height: 240px;
+    background: #F7941E;
+    display: flex;
+    align-items: center;
+}
+.textpolosa{
+    max-width: 920px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.informat h6{
+    font-family: Gilroy;
+    font-size: 32px;
+    line-height: 45px;
+    color: #000000;
+}
+.informat span{
+    font-family: Gilroy;
+    font-size: 32px;
+    line-height: 45px;
+    color: #000000;
+}
+.knopki{
+    display: flex;
+    align-items: center;
+    margin-left: 220px;
+}
+.b1{
+    font-family: Gilroy;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #231F20;
+    border: 1px solid #231F20 ;
+    border-radius: 5px;
+    padding: 10px 24px;
+    margin-right: 16px;
+}
+.b2{
+    font-family: Gilroy;
+    font-size: 18px;
+    line-height:24px;
+    text-transform: uppercase;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 9px 22px;
+    background: #F7941E;
+}
+        /* качели */
+.kacheli{
+    height: 1026px;
+}
+.blackbox{
+    height: 370px;
+    background: #231F20;
+    display: flex;
+}
+.blackbox img{
+    float: left;
+}
+.textkacheli{
+    margin-left: 78px;
+    margin-top: 63px;
+}
+.textkacheli span{
+    font-family: Gilroy;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.textkacheli p{
+    font-family: Gilroy;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    max-width: 492px;
+    height: 125px;
+    margin-top: 27px;
+    margin-bottom: 60px;
+}
+.textkacheli a{
+    font-family: Gilroy;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.cardstwo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.card1{
+    max-width: 570px;
+    height: 290px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.card1 h6{
+    max-width: 474px;
+    font-family: Gilroy;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+}
+.card1 p{
+    font-family: Gilroy;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+.card1 a{
+    font-family: Gilroy;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: 410px;
+    background: #FAFAFA;
+}
+.razmer{
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 410px;
+}
+.textfoot{
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+.textfoot ul{
+    display: flex;
+    align-items: baseline;
+    max-width: 615px;
+    margin-top: 115px;
+}
+.textfoot ul li a{
+    font-family: Gilroy;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin-right: 65px;
+}
+.textfoot ul li:nth-child(3){
+    font-family: Homemade Apple;
+    font-size: 18px;
+    line-height: 39px;
+    color: #F7941E;
+    margin-left: 76px;
+    margin-right: 141px;
+}
+hr{
+    max-width: 1000px;
+    background: #000000;
+    border: 1px solid #000000;
+    margin-top: 43px;
+}
+.seti{
+    max-width: 296px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fab, .far {
+    color: #000000;
+    font-size: 38px;
+    margin-right: 29px;
+}
+.seti ul{
+    display: flex;
+    margin-top: 56px;
+}
+.year{
+    display: flex;
+    justify-content: center;
+    margin-top: 73px;
+}
+.year span{
+    font-family: Gilroy;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    display: block;
+    margin-right: 10px;
+}
