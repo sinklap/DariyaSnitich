@@ -5,33 +5,50 @@
 }
 .header{
     max-width: 100%;
-    height: 90px;
+    height: 45px;
     background-color: #344d67;
 }
 .container{
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
-    height: 1440px;
 }
                         /* логотип и флаги */
 .logo{
-    margin-left: 85px;
     margin-top: 15px;
+}
+.ekran{
+    width: 690px;
+    height: 470px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 130px;
 }
 .flags{
     display: flex;
     list-style-type: none;
-    margin-left: 156px;
+    margin-left: 116px;
     margin-bottom: 20px;
 }
 .flags li a img{
     width: 20px;
     box-shadow: 7px 0px 4px rgb(0 0 0 / 34%);
     border-radius: 15px;
-    margin-right: 15px;
+    margin-right: 35px;
+}
+.flags li a img {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.flags li a img:hover {
+    -webkit-filter: opacity(25%);
 }
 .piclogo{
-    width: 500px;
+    width: 426px;
+    float: left;
+    margin-left: 48px;
 }
                     /* кнопка*/
 .nav {
@@ -60,13 +77,13 @@
 
 .nav-toggle {
     position: absolute;
-    left: 389px;
-    top: 238px;
-    padding: 25px 10px 25px 10px;
+    left: 355px;
+    top: 185px;
+    padding: 24px 9px 24px 7px;
     background: inherit;
     color: #dadada;
     cursor: pointer;
-    font-size: 76px;
+    font-size: 67px;
     line-height: 0;
     z-index: 2001;
     -webkit-transition: color .25s ease-in-out;
@@ -299,9 +316,73 @@ body {
     transition: width 0s ease;
 }
 
-
+                    /* KRUGI */
+.krug1{
+    width: 345px;
+    float: left;
+    margin-top: 58px;
+}
+.krug2{
+    width: 180px;
+    margin-top: 105px;
+    margin-left: -108px;
+}
+.krug3{
+    width: 92px;
+    float: right;
+    margin-top: 79px;
+    margin-right: -54px;
+}
+.krug4{
+    width: 210px;
+    margin-top: 99px;
+    margin-left: -25px;
+}
+.krug5{
+    width: 100px;
+    float: left;
+    margin-top: -112px;
+    margin-left: 123px;
+}
+.krug6{
+    width: 162px;
+    margin-left: 700px;
+    margin-top: -168px;
+    margin-bottom: 12px;
+}
+.krug7{
+    width: 120px;
+    float: right;
+    margin-right: 395px;
+    margin-top: -123px;
+}
 .footer{
     max-width: 100%;
-    height: 45px;
+    height: 25px;
     background-color: #344d67;
+}
+
+.krug1:hover {
+    animation: rotation 1s linear infinite;
+}
+.krug2:hover {
+    animation: rotation 1s linear infinite;
+}
+.krug3:hover {
+    animation: rotation 1s linear infinite;
+}
+.krug4:hover {
+    animation: rotation 1s linear infinite;
+}
+.krug5:hover {
+    animation: rotation 1s linear infinite;
+}
+.krug6:hover {
+    animation: rotation 1s linear infinite;
+}
+.krug7:hover {
+    animation: rotation 1s linear infinite;
+}
+@keyframes rotation { 
+    to{ transform: rotate(360deg)}
 }
