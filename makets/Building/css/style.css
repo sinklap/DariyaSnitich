@@ -72,7 +72,7 @@ body{
     background-size: cover;
 }
 .search-text h1{
-    max-width: 700px;
+    max-width: 738px;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
@@ -80,7 +80,7 @@ body{
     color: #FFFFFF;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 185px;
+    padding-top: 185px;
 }
 .search-text p{
     max-width: 622px;
