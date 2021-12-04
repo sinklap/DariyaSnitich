@@ -56,6 +56,7 @@ a{
     line-height: 22px;
     text-transform: uppercase;
     color: #F7941E;
+    cursor: pointer;
 }
 .header a:hover{
     text-decoration: underline;
@@ -108,6 +109,7 @@ a{
     border: 1px solid #F7941E;
     padding: 15px 24px 15px 25px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .picfind img{
     float: right;
@@ -148,6 +150,7 @@ a{
     border: 1px solid #F7941E;
     border-radius: 5px;
     padding: 14px 46px;
+    cursor: pointer;
 }
 .picotkr img{
     float: left;
@@ -160,7 +163,9 @@ a{
 }
 .container{
     max-width: 1170px;
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px 15px;
 }
 .gifttext{
     margin-top: 96px;
@@ -260,6 +265,7 @@ a{
     border-radius: 5px;
     padding: 10px 24px;
     margin-right: 16px;
+    cursor: pointer;
 }
 .b2{
     font-family: Gilroy;
@@ -271,6 +277,7 @@ a{
     border-radius: 5px;
     padding: 9px 22px;
     background: #F7941E;
+    cursor: pointer;
 }
         /* качели */
 .kacheli{
@@ -414,3 +421,4 @@ hr{
     display: block;
     margin-right: 10px;
 }
+
