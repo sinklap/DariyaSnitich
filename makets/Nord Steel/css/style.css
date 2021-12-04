@@ -26,7 +26,7 @@
 .flags{
     display: flex;
     list-style-type: none;
-    margin-left: 116px;
+    margin-left: 142px;
     margin-bottom: 20px;
 }
 .flags li a img{
@@ -361,27 +361,27 @@ body {
     height: 25px;
     background-color: #344d67;
 }
-
+/* если бесконечно в конце infinite */
 .krug1:hover {
-    animation: rotation 1s linear infinite;
+    animation: rotation 1s linear 5;
 }
 .krug2:hover {
-    animation: rotation 1s linear infinite;
+    animation: rotation 1s linear 5;
 }
 .krug3:hover {
-    animation: rotation 1s linear infinite;
+    animation: rotation 1s linear 5;
 }
 .krug4:hover {
-    animation: rotation 1s linear infinite;
+    animation: rotation 1s linear 5;
 }
 .krug5:hover {
-    animation: rotation 1s linear infinite;
+    animation: rotation 1s linear 5;
 }
 .krug6:hover {
-    animation: rotation 1s linear infinite;
+    animation: rotation 1s linear 5;
 }
 .krug7:hover {
-    animation: rotation 1s linear infinite;
+    animation: rotation 1s linear 5;
 }
 @keyframes rotation { 
     to{ transform: rotate(360deg)}
