@@ -363,25 +363,25 @@ body {
 }
 /* если бесконечно в конце infinite */
 .krug1:hover {
-    animation: rotation 1s linear 5;
+    animation: rotation 1s ease  infinite ;
 }
 .krug2:hover {
-    animation: rotation 1s linear 5;
+    animation: rotation 1s ease  infinite ;
 }
 .krug3:hover {
-    animation: rotation 1s linear 5;
+    animation: rotation 1s ease infinite;
 }
 .krug4:hover {
-    animation: rotation 1s linear 5;
+    animation: rotation 1s ease infinite ;
 }
 .krug5:hover {
-    animation: rotation 1s linear 5;
+    animation: rotation 1s ease  infinite ;
 }
 .krug6:hover {
-    animation: rotation 1s linear 5;
+    animation: rotation 1s ease  infinite ;
 }
 .krug7:hover {
-    animation: rotation 1s linear 5;
+    animation: rotation 1s ease  infinite ;
 }
 @keyframes rotation { 
     to{ transform: rotate(360deg)}
