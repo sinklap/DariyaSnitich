@@ -6,7 +6,7 @@
 .header{
     max-width: 100%;
     height: 45px;
-    background-color: #344d67;
+    background-color: #124568;
 }
 .container{
     width: 1440px;
@@ -21,12 +21,11 @@
     height: 470px;
     float: right;
     margin-top: -30px;
-    margin-right: 130px;
 }
 .flags{
     display: flex;
     list-style-type: none;
-    margin-left: 142px;
+    margin-left: 210px;
     margin-bottom: 20px;
 }
 .flags li a img{
@@ -46,17 +45,16 @@
     -webkit-filter: opacity(25%);
 }
 .piclogo{
-    width: 426px;
+    width: 450px;
     float: left;
-    margin-left: 48px;
+    margin-left: 105px;
 }
                     /* кнопка*/
 .nav {
     /*  ширна произвольная, не стесняйтесь экспериментировать */
-    width: 320px;
-    min-width: 320px;
+    min-width: 189px;
     /* фиксируем и выставляем высоту панели на максимум */
-    height: 100%;
+    height: 335px;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -70,18 +68,18 @@
     -moz-transition: left 0.3s;
     transition: left 0.3s;
     /* определяем цвет фона панели */
-    background: #344d67;
+    background: #124568;
     /* поверх других элементов */
     z-index: 2000;
 }
 
 .nav-toggle {
     position: absolute;
-    left: 355px;
-    top: 185px;
-    padding: 24px 9px 24px 7px;
+    left: 361px;
+    top: 106px;
+    padding: 24px 9px 24px 9px;
     background: inherit;
-    color: #dadada;
+    color: white;
     cursor: pointer;
     font-size: 67px;
     line-height: 0;
@@ -109,7 +107,7 @@
     left: auto;
     right: 2px;
     top: 0em;
-    font-size: 35px;
+    font-size: 20px;
 }
 
 [id='nav-toggle']:checked ~ .nav {
@@ -158,35 +156,6 @@ body {
       width: 100%;
       box-shadow: none
     }
-}
-
-.nav h2 {
-    width: 90%;
-    padding: 0;
-    margin: 10px 0;
-    text-align: center;
-    text-shadow: rgba(255, 255, 255, .1) -1px -1px 1px, rgba(0, 0, 0, .5) 1px 1px 1px;
-    font-size: 1.3em;
-    line-height: 1.3em;
-    opacity: 0;
-    transform: scale(0.1, 0.1);
-    -ms-transform: scale(0.1, 0.1);
-    -moz-transform: scale(0.1, 0.1);
-    -webkit-transform: scale(0.1, 0.1);
-    transform-origin: 0% 0%;
-    -ms-transform-origin: 0% 0%;
-    -moz-transform-origin: 0% 0%;
-    -webkit-transform-origin: 0% 0%;
-    transition: opacity 0.8s, transform 0.8s;
-    -ms-transition: opacity 0.8s, -ms-transform 0.8s;
-    -moz-transition: opacity 0.8s, -moz-transform 0.8s;
-    -webkit-transition: opacity 0.8s, -webkit-transform 0.8s;
-}
- 
-.nav h2 a {
-    color: #dadada;
-    text-decoration: none;
-    text-transform: uppercase;
 }
 
 [id='nav-toggle']:checked ~ .nav h2 {
@@ -261,8 +230,8 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    font-size: 1.2em;
-    color: #dadada;
+    font-size: 15px;
+    color: white;
     width: 100%;
     text-decoration: none;
     /* плавный переход */
@@ -325,13 +294,12 @@ body {
 .krug2{
     width: 180px;
     margin-top: 105px;
-    margin-left: -108px;
+    margin-left: -149px;
 }
 .krug3{
     width: 92px;
     float: right;
-    margin-top: 79px;
-    margin-right: -54px;
+    margin-right: 84px;
 }
 .krug4{
     width: 210px;
@@ -346,20 +314,20 @@ body {
 }
 .krug6{
     width: 162px;
-    margin-left: 700px;
+    margin-left: 630px;
     margin-top: -168px;
     margin-bottom: 12px;
 }
 .krug7{
     width: 120px;
     float: right;
-    margin-right: 395px;
+    margin-right: 445px;
     margin-top: -123px;
 }
 .footer{
     max-width: 100%;
     height: 25px;
-    background-color: #344d67;
+    background-color: #124568;
 }
 /* если бесконечно в конце infinite */
 .krug1:hover {
