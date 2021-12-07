@@ -17,11 +17,22 @@
     margin-top: 15px;
 }
 .ekran{
+    background-image: url(../img/ekran.png);
+    background-repeat: no-repeat;
+    width: 690px;
+    height: 470px;
+    float: right;
+    margin-top: -654px;
+    display: block;
+}
+.ekran1 img{
     width: 690px;
     height: 470px;
     float: right;
     margin-top: -30px;
 }
+
+
 .flags{
     display: flex;
     list-style-type: none;
@@ -286,43 +297,61 @@ body {
 }
 
                     /* KRUGI */
-.krug1{
+.krug1 img{
     width: 345px;
     float: left;
     margin-top: 58px;
+    margin-left: 27px
 }
-.krug2{
+.krug2 img{
     width: 180px;
     margin-top: 105px;
-    margin-left: -149px;
+    margin-left: -156px;
 }
-.krug3{
+.krug3 img{
     width: 92px;
     float: right;
-    margin-right: 84px;
+    margin-right: 64px;
 }
-.krug4{
+.krug4 img{
     width: 210px;
-    margin-top: 99px;
-    margin-left: -25px;
+    margin-top: 5px;
+    margin-left: 13px;
 }
-.krug5{
+.krug6n img{
+    width: 143px;
+    float: left;
+    margin-top: -146px;
+}
+.krug5 img{
     width: 100px;
     float: left;
-    margin-top: -112px;
-    margin-left: 123px;
+    margin-top: -140px;
+    margin-left: 76px;
 }
-.krug6{
+.krug6 img{
     width: 162px;
-    margin-left: 630px;
+    margin-left: 505px;
     margin-top: -168px;
     margin-bottom: 12px;
 }
-.krug7{
+.krug7 img{
     width: 120px;
     float: right;
-    margin-right: 445px;
-    margin-top: -123px;
+    margin-right: 458px;
+    margin-top: -165px;
+}
+.krug2n img{
+    width: 180px;
+    float: right;
+    margin-right: 229px;
+    margin-top: -206px;
+}
+.krug3n img{
+    width: 92px;
+    float: right;
+    margin-right: 89px;
+    margin-top: -131px;
 }
 .footer{
     max-width: 100%;
@@ -330,25 +359,34 @@ body {
     background-color: #124568;
 }
 /* если бесконечно в конце infinite */
-.krug1:hover {
+.krug1 img:hover {
     animation: rotation 1s ease  infinite ;
 }
-.krug2:hover {
+.krug2 img:hover {
     animation: rotation 1s ease  infinite ;
 }
-.krug3:hover {
+.krug3 img:hover {
     animation: rotation 1s ease infinite;
 }
-.krug4:hover {
+.krug4 img:hover {
     animation: rotation 1s ease infinite ;
 }
-.krug5:hover {
+.krug5 img:hover {
     animation: rotation 1s ease  infinite ;
 }
-.krug6:hover {
+.krug6 img:hover {
     animation: rotation 1s ease  infinite ;
 }
-.krug7:hover {
+.krug7 img:hover {
+    animation: rotation 1s ease  infinite ;
+}
+.krug6n img:hover {
+    animation: rotation 1s ease  infinite ;
+}
+.krug2n img:hover {
+    animation: rotation 1s ease  infinite ;
+}
+.krug3n img:hover {
     animation: rotation 1s ease  infinite ;
 }
 @keyframes rotation { 
