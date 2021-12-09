@@ -182,4 +182,20 @@
 	.banner_content h1{
 		font-size: 25px !important;
 	}
+	.edu-list > li {
+		padding: 10px 15px 10px 15px;
+	}
+	.edu-list > li h5 {
+		font-size: 8px;
+		margin-bottom: 0px;
+	}
+	.edu-list > li strong {
+		font-size: 8px;
+	}
+	.section_padding {
+		padding: 40px 0;
+	}
+	.section_heading {
+		padding-bottom: 50px;
+	}
 }
