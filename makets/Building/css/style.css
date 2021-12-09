@@ -24,7 +24,7 @@ body{
 .header-info{
     display: flex;
     align-items: center;
-    padding: 56px 53px;
+    padding: 56px 53px 0px;
 }
 .logotext{
     margin-right: auto;
