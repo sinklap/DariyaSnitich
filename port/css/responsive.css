@@ -199,3 +199,45 @@
 		padding-bottom: 50px;
 	}
 }
+@media only screen and (max-width: 420px) { 
+	.edu-list > li {
+		padding: 2px 2px 2px 2px;;
+	}
+	.edu-list > li h5 {
+		font-size: 6px;
+		margin-bottom: 0px;
+	}
+	.edu-list > li strong {
+		font-size: 6px;
+	}
+	.edu-list > li::after {
+		width: 40px;
+		height: 40px;
+		left: -41px;
+		font-size: 14px;
+		line-height: 37px;
+	}
+	.experience > li::after {
+		left: -41px;
+		width: 40px;
+		height: 40px;
+		line-height: 38px;
+		font-size: 14px;
+	}
+	.edu-list {
+		margin: 0 110px;
+	}
+}
+@media only screen and (max-width: 390px) { 
+	.edu-list > li {
+		padding: 2px 2px 2px 2px;;
+	}
+	.edu-list > li h5 {
+		font-size: 6px;
+		margin-bottom: 0px;
+	}
+	.edu-list > li strong {
+		font-size: 6px;
+		line-height: 0px;
+	}
+}
