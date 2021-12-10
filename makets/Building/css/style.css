@@ -15,7 +15,7 @@ img{
 body{
     font-family: 'Rubik', sans-serif;
 }
-/* header */
+                    /* header */
 .container{
     max-width: 1276px;
     margin-right: auto;
@@ -24,7 +24,7 @@ body{
 .header-info{
     display: flex;
     align-items: center;
-    padding: 56px 53px 0px;
+    padding: 56px 0px 53px;
 }
 .logotext{
     margin-right: auto;
@@ -32,7 +32,8 @@ body{
     align-items: center;
 }
 .logotext span{
-    margin-bottom: -14px;
+    margin-bottom: -2px;
+    margin-left: 10px;
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -64,12 +65,17 @@ body{
     padding: 11px 25px;
     margin-left: 120px;
 }
-/* search */
+                    /* search */
 .search{
     height: 700px;
     background-image: url(../img/homemain.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.search-all{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .search-text h1{
     max-width: 738px;
@@ -78,8 +84,6 @@ body{
     font-size: 64px;
     line-height: 1;
     color: #FFFFFF;
-    margin-right: auto;
-    margin-left: auto;
     padding-top: 185px;
 }
 .search-text p{
@@ -93,6 +97,296 @@ body{
     color: #FFFFFF;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom:355px;
+    margin-bottom:97px;
+}
+.row-cols-lg-auto{
+    background: #FFFFFF;
+    padding: 24px 24px 24px 24px;
+}
+.form-select {
+    width: 259px;
+    font-size: 14px;
+    color: #555555;
+    border: 0.5px solid rgba(25, 188, 228, 0.3);
+}
+.btn {
+    width: 259px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #19BCE4;;
+    border-color: #19BCE4;;
+}
+.g-3{
+    --bs-gutter-y: 0rem;
+}
 
+            /* about us */
+.about-all{
+    padding: 120px 0px 165px 0px;
+}
+.bed{
+    float: left;
+    margin-right: 80px;
+}
+.sofa{
+    float: left;
+    z-index: 1;
+    margin-left: -283px;
+    margin-top: 449px;
+}
+.about-text span{
+    font-family: Rubik;
+    font-size: 20px;
+    line-height: 27px;
+    color: #02012B;
+}
+.about-text h2{
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 61px;
+    color: #222222;
+    padding: 10px 0px 24px 0px;
+}
+.about-text p{
+    font-family: Rubik;
+    font-size: 20px;
+    line-height: 27px;
+    color: #555555;
+    margin-bottom: 40px;
+}
+.about-icons{
+    display: flex;
+}
+.naushniki{
+    max-width: 229px;
+    margin-right: 91px;
+}
+.naushniki h5{
+    padding: 24px 0px 16px 0px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #222222;
+}
+.naushniki p{ 
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #555555;
+    margin-bottom: 40px;
+}
+.ruki{
+    max-width: 232px;
+}
+.ruki h5{
+    padding: 24px 0px 16px 0px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #222222;
+}
+.ruki p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #555555;
+}
+.btn-about a{
+    display: inline-block;
+    font-family: Rubik;
+    font-size: 18px;
+    line-height: 1;
+    color: #FFFFFF;
+    background: #19BCE4;
+    border-radius: 6px;
+    padding: 16px 32px;
+}
+        /* looking for */
+.looking{
+    background: #F8FDFE;
+}
+.big-letters h2{
+    padding: 75px 0px 68px 0px;
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 61px;
+    color: #222222;
+}
+.imgbox{
+    display: flex;
+}
+.look-img{
+    margin-right: 51px;
+}
+.f-box{
+    display: flex;
+    padding: 24px 65px 24px 24px;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(25, 188, 228, 0.2);
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+.s-box{
+    display: flex;
+    padding: 24px 65px 24px 24px;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(25, 188, 228, 0.2);
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+.th-box{
+    display: flex;
+    padding: 24px 65px 24px 24px;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(25, 188, 228, 0.2);
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+.four-box{
+    display: flex;
+    padding: 24px 65px 24px 24px;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(25, 188, 228, 0.2);
+    box-sizing: border-box;
+    margin-bottom: 76px;
+}
+.box-text{
+    max-width: 375px;
+}
+.imgbox h5{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;
+    margin-bottom: 0px;
+}
+.imgbox p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+    margin-bottom: 0px;
+}
+.box-img{
+    margin-right: 36px;
+}
+            /* popular places */
+.big-letters2 h2{
+    padding: 120px 0px 16px 0px ;
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 61px;
+    color: #222222;
+    text-align: center;
+}
+.podzag p{
+    font-family: Rubik;
+    font-size: 20px;
+    line-height: 27px;
+    color: #555555;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+}
+.place-text h5{
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.place-text p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #DDDDDD;
+    text-align: center;
+}
+.place-text{
+    padding: 12px 0px 1px 0px;
+    margin-top: -122px;
+    margin-left: 83px;
+    max-width: 200px;
+    background: rgba(0, 96, 119, 0.02);
+    backdrop-filter: blur(29px);
+}
+.bangladesh{
+    margin-right: 30px;
+    height: 540px;
+}
+.japan{
+    margin-right: 30px;
+}
+.london{
+    margin-right: 30px;
+    margin-left: 400px;
+    margin-top: -255px;
+}
+.india{
+    margin-top: -255px;
+}
+    /* choose */
+.choose{
+    background: #F8FDFE;
+}
+.who-all{
+    display: flex;
+}
+.who-text{
+    max-width: 596px;
+}
+.who-text h2{
+    padding: 93px 0px 20px 0px;
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 61px;
+    color: #222222;
+}
+.who-text P{
+    font-family: Rubik;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+    margin-bottom: 40px;
+}
+.who-text a{
+    font-family: Rubik;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 16px 22px 16px 32px;
+    background: #19BCE4;
+    border-radius: 6px;
+}
+.fa-chevron-right{
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 21px;
+}
+.who-img{
+    margin-left: 216px;
 }
