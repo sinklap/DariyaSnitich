@@ -3,13 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'Verdana';
+    src: url('Verdana.svg#Verdana') format('svg'),
+         url('Verdana.ttf') format('truetype'),
+         url('Verdana.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'verdana';
+    src: url('verdana.eot');
+    src: url('verdana.eot?#iefix') format('embedded-opentype'),
+         url('verdana.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }  
 .header{
     max-width: 100%;
     height: 45px;
     background-color: #124568;
 }
 .container{
-    width: 1440px;
+    width: 1395px;
     margin: 0 auto;
 }
                         /* логотип и флаги */
@@ -26,8 +43,8 @@
     display: block;
 }
 .ekran1 img{
-    width: 690px;
-    height: 470px;
+    width: 683px;
+    height: 465px;
     float: right;
     margin-top: -30px;
 }
@@ -36,8 +53,8 @@
 .flags{
     display: flex;
     list-style-type: none;
-    margin-left: 210px;
-    margin-bottom: 20px;
+    margin-left: 238px;
+    margin-bottom: 28px;
 }
 .flags li a img{
     width: 20px;
@@ -56,7 +73,7 @@
     -webkit-filter: opacity(25%);
 }
 .piclogo{
-    width: 450px;
+    width: 500px;
     float: left;
     margin-left: 105px;
 }
@@ -86,8 +103,8 @@
 
 .nav-toggle {
     position: absolute;
-    left: 361px;
-    top: 106px;
+    left: 500px;
+    top: 49px;
     padding: 24px 9px 24px 9px;
     background: inherit;
     color: white;
@@ -118,7 +135,7 @@
     left: auto;
     right: 2px;
     top: 0em;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 [id='nav-toggle']:checked ~ .nav {
@@ -239,9 +256,9 @@ body {
     display: inline-block;
     position: relative;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Verdana', sans-serif;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 13px;
     color: white;
     width: 100%;
     text-decoration: none;
@@ -306,17 +323,17 @@ body {
 .krug2 img{
     width: 180px;
     margin-top: 105px;
-    margin-left: -156px;
+    margin-left: -204px;
 }
 .krug3 img{
     width: 92px;
     float: right;
-    margin-right: 64px;
+    margin-right: 42px;
 }
 .krug4 img{
     width: 210px;
-    margin-top: 5px;
-    margin-left: 13px;
+    margin-top: 94px;
+    margin-left: -13px;
 }
 .krug6n img{
     width: 143px;
@@ -331,7 +348,7 @@ body {
 }
 .krug6 img{
     width: 162px;
-    margin-left: 505px;
+    margin-left: 456px;
     margin-top: -168px;
     margin-bottom: 12px;
 }
@@ -355,39 +372,39 @@ body {
 }
 .footer{
     max-width: 100%;
-    height: 25px;
+    height: 21px;
     background-color: #124568;
 }
 /* если бесконечно в конце infinite */
 .krug1 img:hover {
-    animation: rotation 1s ease  infinite ;
+    animation: rotation 1s linear  infinite ;
 }
 .krug2 img:hover {
-    animation: rotation 1s ease  infinite ;
+    animation: rotation 1s linear  infinite ;
 }
 .krug3 img:hover {
-    animation: rotation 1s ease infinite;
+    animation: rotation 1s linear infinite;
 }
 .krug4 img:hover {
-    animation: rotation 1s ease infinite ;
+    animation: rotation 1s linear infinite ;
 }
 .krug5 img:hover {
-    animation: rotation 1s ease  infinite ;
+    animation: rotation 1s linear  infinite ;
 }
 .krug6 img:hover {
-    animation: rotation 1s ease  infinite ;
+    animation: rotation 1s linear  infinite ;
 }
 .krug7 img:hover {
-    animation: rotation 1s ease  infinite ;
+    animation: rotation 1s linear  infinite ;
 }
 .krug6n img:hover {
-    animation: rotation 1s ease  infinite ;
+    animation: rotation 1s linear  infinite ;
 }
 .krug2n img:hover {
-    animation: rotation 1s ease  infinite ;
+    animation: rotation 1s linear  infinite ;
 }
 .krug3n img:hover {
-    animation: rotation 1s ease  infinite ;
+    animation: rotation 1s linear  infinite ;
 }
 @keyframes rotation { 
     to{ transform: rotate(360deg)}
