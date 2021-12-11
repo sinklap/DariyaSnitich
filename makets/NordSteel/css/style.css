@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 @font-face {
     font-family: 'Verdana';
     src: url('Verdana.svg#Verdana') format('svg'),
@@ -79,10 +82,8 @@
 }
                     /* кнопка*/
 .nav {
-    /*  ширна произвольная, не стесняйтесь экспериментировать */
-    min-width: 189px;
-    /* фиксируем и выставляем высоту панели на максимум */
-    height: 335px;
+    min-width: 179px;
+    height: 290px;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -408,4 +409,170 @@ body {
 }
 @keyframes rotation { 
     to{ transform: rotate(360deg)}
+}
+
+                    /* ABOUT */
+.about-text{
+    margin-top: 180px;
+}
+.about-text h2{
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #8c1c1c;
+}
+.about-text p{
+    font-family: 'Verdana', sans-serif;
+    font-size: 33px;
+    color: #124568;
+    padding: 30px 0px 30px 46px;
+}
+                    /* CONTACT */
+.contact-text{
+    margin-top: 180px;
+}
+.contact-text h2{
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #8c1c1c;
+}
+.nomer p{
+    font-family: 'Verdana', sans-serif;
+    font-size: 25px;
+    color: #124568;
+    padding: 30px 0px 30px 46px;
+}
+.adress p{
+    font-family: 'Verdana', sans-serif;
+    font-size: 25px;
+    color: #8c1c1c;
+    padding: 0px 0px 30px 46px;
+}
+.ssilki a{
+    font-family: 'Verdana', sans-serif;
+    font-size: 25px;
+    color: #124568;
+    padding: 30px 0px 30px 46px;
+}
+.buhgal p{
+    font-family: 'Verdana', sans-serif;
+    font-size: 25px;
+    color: #8c1c1c;
+    padding: 30px 0px 0px 46px;
+}
+.buhgal a{
+    font-family: 'Verdana', sans-serif;
+    font-size: 25px;
+    color: #8c1c1c;
+    padding: 30px 0px 0px 46px;
+}
+                        /* location */
+.location-text{
+    margin-top: 180px;
+}
+.location-text h2{
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #8c1c1c;
+}
+.map{
+    padding: 30px 0px 30px 46px;
+}
+.ulica p{
+    font-family: 'Verdana', sans-serif;
+    font-size: 21px;
+    color: #124568;
+    padding: 0px 0px 16px 46px;
+}
+                    /* certificates */
+.certific-text{
+    margin-top: 180px;
+}
+.certific-text h2{
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #8c1c1c;
+}
+.cert-nr{
+    font-family: 'Verdana', sans-serif;
+    font-size: 25px;
+    color: #124568;
+    padding: 30px 0px 30px 46px;
+}
+.sert-ssilki{
+    margin-bottom: 50px;
+}
+.sert-ssilki a{
+    font-family: 'Verdana', sans-serif;
+    font-size: 25px;
+    color: #124568;
+    padding: 30px 0px 0px 46px;
+}
+                    /* team */
+.team-text{
+    margin-top: 180px;
+}
+.team-text h2{
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #8c1c1c;
+}
+.pers1 p{
+    font-family: 'Verdana', sans-serif;
+    font-size: 25px;
+    color: #124568;
+    padding: 30px 0px 0px 46px;
+}
+.pers1 a{
+    font-family: 'Verdana', sans-serif;
+    font-size: 21px;
+    color: #8c1c1c;
+    padding: 30px 0px 0px 46px;
+}
+.pers2 p{
+    font-family: 'Verdana', sans-serif;
+    font-size: 25px;
+    color: #124568;
+    padding: 30px 0px 0px 46px;
+}
+.pers2 a{
+    font-family: 'Verdana', sans-serif;
+    font-size: 21px;
+    color: #8c1c1c;
+    padding: 30px 0px 0px 46px;
+}
+.pers3 p{
+    font-family: 'Verdana', sans-serif;
+    font-size: 25px;
+    color: #124568;
+    padding: 30px 0px 0px 46px;
+}
+.pers3 a{
+    font-family: 'Verdana', sans-serif;
+    font-size: 21px;
+    color: #8c1c1c;
+    padding: 30px 0px 0px 46px;
+}
+                    /* job */
+.job-text{
+    margin-top: 180px;
+}
+.job-text h2{
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #8c1c1c;
+}
+.job-vac{
+    margin-bottom: 257px;
 }
