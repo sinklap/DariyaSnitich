@@ -1429,6 +1429,36 @@ body {
         height: 330px;
     }
 }
+@media all and (max-width: 390px){
+    .ekran1 img {
+        width: 200px;
+        height: 140px;
+    }
+    .krug6 img {
+        margin-left: 293px;
+        margin-top: -107px;
+    }
+}
+@media all and (max-width: 360px){
+    .ekran1 img {
+        width: 180px;
+        height: 135px;
+    }
+    .krug7 img {
+        width: 39px;
+        margin-left: 299px;
+    }
+}
+@media all and (max-width: 345px){
+    .krug2n img {
+        width: 40px;
+    }
+    .krug3n img {
+        margin-right: 36px;
+        margin-top: -203px;
+        width: 35px;
+    }
+}
 
                     /* media about */
 @media all and (max-width: 965px){
@@ -1469,6 +1499,14 @@ body {
         font-size: 14px;
         padding: 8px 36px 30px 69px;
     }
+    @media all and (max-width: 430px){
+        .about-text h2 {
+            font-size: 12px;
+            margin-top: -15px;
+        }
+        .about-text p {
+            font-size: 11px;
+        }
 }
 
                     /* media certificat */
@@ -1742,6 +1780,12 @@ body {
 @media all and (max-width: 450px){
         .map {
             margin-left: 80px;
+    }
+}
+@media all and (max-width: 385px){
+    .map {
+        margin-left: 50px;
+        margin-top: -174px;
     }
 }
 
