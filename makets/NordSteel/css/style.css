@@ -29,7 +29,8 @@ a{
     background-color: #124568;
 }
 .container{
-    width: 1395px;
+    max-width: 1395px;
+    height: 672px;
     margin: 0 auto;
 }
                         /* логотип и флаги */
@@ -50,13 +51,13 @@ a{
     height: 465px;
     float: right;
     margin-top: -30px;
+    padding: 0px 17px 12px 0px;
 }
-
 
 .flags{
     display: flex;
     list-style-type: none;
-    margin-left: 238px;
+    margin-left: 208px;
     margin-bottom: 28px;
 }
 .flags li a img{
@@ -76,9 +77,9 @@ a{
     -webkit-filter: opacity(25%);
 }
 .piclogo{
-    width: 500px;
+    width: 515px;
     float: left;
-    margin-left: 105px;
+    margin-left: 70px;
 }
                     /* кнопка*/
 .nav {
@@ -104,9 +105,9 @@ a{
 
 .nav-toggle {
     position: absolute;
-    left: 500px;
-    top: 49px;
-    padding: 24px 9px 24px 9px;
+    left: 463px;
+    top: -9px;
+    padding: 12px 3px 0px 3px;
     background: inherit;
     color: white;
     cursor: pointer;
@@ -118,8 +119,8 @@ a{
     transition: color .25s ease-in-out;
 }
 
-.nav-toggle:after {
-    content: '\003D';
+.nav-toggle:after {  
+    content: url(../img/burger.png);
     text-decoration: none;
 }
 
@@ -324,7 +325,7 @@ body {
 .krug2 img{
     width: 180px;
     margin-top: 105px;
-    margin-left: -204px;
+    margin-left: -181px;
 }
 .krug3 img{
     width: 92px;
@@ -401,12 +402,12 @@ body {
 .krug6n img:hover {
     animation: rotation 1s linear  infinite ;
 }
-.krug2n img:hover {
+/* .krug2n img:hover {
     animation: rotation 1s linear  infinite ;
 }
 .krug3n img:hover {
     animation: rotation 1s linear  infinite ;
-}
+} */
 @keyframes rotation { 
     to{ transform: rotate(360deg)}
 }
@@ -426,7 +427,7 @@ body {
     font-family: 'Verdana', sans-serif;
     font-size: 33px;
     color: #124568;
-    padding: 30px 0px 30px 46px;
+    padding: 30px 0px 30px 69px;
 }
                     /* CONTACT */
 .contact-text{
@@ -439,35 +440,60 @@ body {
     font-size: 35px;
     color: #8c1c1c;
 }
+.fa-map-marker-alt{
+    font-size: 20px;
+    margin-right: 7px;
+    color: #124568;
+}
+.fa-envelope{
+    margin-right: 7px;
+    color: #124568;
+}
+.fa-phone-alt{
+    margin-right: 7px;
+    color: #124568;
+}
+.nomer{
+    margin-left: 70px;
+    margin-bottom: 25px;
+    margin-top: 35px;
+}
+.adress{
+    display: flex;
+    margin-left: 70px;
+    margin-bottom: 25px
+}
+.ssilki{
+    margin-left: 70px;
+    margin-bottom: 25px
+}
+.buhgal{
+    margin-left: 70px;
+}
 .nomer p{
     font-family: 'Verdana', sans-serif;
-    font-size: 25px;
+    font-size: 17px;
     color: #124568;
-    padding: 30px 0px 30px 46px;
 }
 .adress p{
     font-family: 'Verdana', sans-serif;
-    font-size: 25px;
+    font-size: 17px;
     color: #8c1c1c;
-    padding: 0px 0px 30px 46px;
 }
 .ssilki a{
     font-family: 'Verdana', sans-serif;
-    font-size: 25px;
+    font-size: 17px;
     color: #124568;
-    padding: 30px 0px 30px 46px;
 }
 .buhgal p{
     font-family: 'Verdana', sans-serif;
-    font-size: 25px;
+    font-size: 17px;
     color: #8c1c1c;
-    padding: 30px 0px 0px 46px;
 }
 .buhgal a{
     font-family: 'Verdana', sans-serif;
-    font-size: 25px;
+    font-size: 17px;
     color: #8c1c1c;
-    padding: 30px 0px 0px 46px;
 }
                         /* location */
 .location-text{
@@ -481,13 +507,15 @@ body {
     color: #8c1c1c;
 }
 .map{
-    padding: 30px 0px 30px 46px;
+    margin-left: 70px;
+    margin-top: 30px;
 }
 .ulica p{
     font-family: 'Verdana', sans-serif;
-    font-size: 21px;
+    font-size: 18px;
     color: #124568;
-    padding: 0px 0px 16px 46px;
+    margin-left: 70px;
+    margin-top: 20px;
 }
                     /* certificates */
 .certific-text{
@@ -500,20 +528,21 @@ body {
     font-size: 35px;
     color: #8c1c1c;
 }
-.cert-nr{
-    font-family: 'Verdana', sans-serif;
-    font-size: 25px;
-    color: #124568;
-    padding: 30px 0px 30px 46px;
+.photo-sert{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 30px;
 }
-.sert-ssilki{
-    margin-bottom: 50px;
+.photo-one img{
+    margin-right: 15px;
 }
-.sert-ssilki a{
-    font-family: 'Verdana', sans-serif;
-    font-size: 25px;
-    color: #124568;
-    padding: 30px 0px 0px 46px;
+.photo-one img:hover{
+    opacity:0.5;
+    filter:alpha(opacity=50);
+}
+.photo-two img:hover{
+    opacity:0.5;
+    filter:alpha(opacity=50);
 }
                     /* team */
 .team-text{
@@ -526,39 +555,72 @@ body {
     font-size: 35px;
     color: #8c1c1c;
 }
+.persons{
+    margin-left: 70px;
+    margin-top: 44px;
+}
+.pers1{
+    display: flex;
+    margin-bottom: 20px;
+}
+.pers2{
+    display: flex;
+    margin-bottom: 20px;
+}
+.pers3{
+    display: flex;
+}
 .pers1 p{
     font-family: 'Verdana', sans-serif;
     font-size: 25px;
     color: #124568;
-    padding: 30px 0px 0px 46px;
+    padding: 0px 0px 0px 46px;;
+}
+.pers1 p:nth-child(2){
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px;
+    color: #124568;
+    padding: 0px 0px 0px 47px;
 }
 .pers1 a{
     font-family: 'Verdana', sans-serif;
-    font-size: 21px;
+    font-size: 16px;
     color: #8c1c1c;
-    padding: 30px 0px 0px 46px;
+    padding: 0px 0px 0px 46px;
 }
 .pers2 p{
     font-family: 'Verdana', sans-serif;
     font-size: 25px;
     color: #124568;
-    padding: 30px 0px 0px 46px;
+    padding: 0px 0px 0px 46px;;
+}
+.pers2 p:nth-child(2){
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px;
+    color: #124568;
+    padding: 0px 0px 0px 47px;
 }
 .pers2 a{
     font-family: 'Verdana', sans-serif;
-    font-size: 21px;
+    font-size: 16px;
     color: #8c1c1c;
-    padding: 30px 0px 0px 46px;
+    padding: 0px 0px 0px 46px;
 }
 .pers3 p{
     font-family: 'Verdana', sans-serif;
     font-size: 25px;
     color: #124568;
-    padding: 30px 0px 0px 46px;
+    padding: 0px 0px 0px 46px;;
+}
+.pers3 p:nth-child(2){
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px;
+    color: #124568;
+    padding: 0px 0px 0px 47px;
 }
 .pers3 a{
     font-family: 'Verdana', sans-serif;
-    font-size: 21px;
+    font-size: 16px;
     color: #8c1c1c;
     padding: 30px 0px 0px 46px;
 }
