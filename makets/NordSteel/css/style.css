@@ -105,7 +105,7 @@ a{
 
 .nav-toggle {
     position: absolute;
-    left: 463px;
+    left: 350px;
     top: -9px;
     padding: 12px 3px 0px 3px;
     background: inherit;
@@ -530,17 +530,17 @@ body {
 }
 .photo-sert{
     display: flex;
-    margin-left: 70px;
+    margin-left: 207px;
     margin-top: 30px;
 }
 .photo-one{
-    margin-right: 15px;
+    margin-right: -176px;
 }
 .photo-one img{
-    width: 100%;
+     width: 40%;
 }
 .photo-two img{
-    width: 100%;
+    width: 40%;
 }
 .photo-one img:hover{
     opacity:0.5;
@@ -1500,13 +1500,13 @@ body {
         padding: 8px 36px 30px 69px;
     }
     @media all and (max-width: 430px){
-        .about-text h2 {
-            font-size: 12px;
-            margin-top: -15px;
-        }
-        .about-text p {
-            font-size: 11px;
-        }
+    .about-text h2 {
+        font-size: 12px;
+        margin-top: -15px;
+    }
+    .about-text p {
+         font-size: 11px;
+    }
 }
 
                     /* media certificat */
@@ -1778,8 +1778,8 @@ body {
     }
 }
 @media all and (max-width: 450px){
-        .map {
-            margin-left: 80px;
+    .map {
+         margin-left: 80px;
     }
 }
 @media all and (max-width: 385px){
@@ -1911,4 +1911,5 @@ body {
     .persons {
         margin-left: 65px;
     }
+}
 }
