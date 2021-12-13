@@ -354,6 +354,7 @@ body{
 }
 .who-all{
     display: flex;
+    margin-bottom: 120px;
 }
 .who-text{
     max-width: 596px;
@@ -389,4 +390,905 @@ body{
 }
 .who-img{
     margin-left: 216px;
+}
+            /* subscribe */
+.mail{
+    display: flex;
+    background: #19BCE4;
+    border-radius: 24px;
+    flex-direction: column;
+    align-items: center;
+}
+.mail-text h2{
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 48px 0px 40px 0px;
+}
+.form-control {
+    width: 720px;
+    padding: 11px 0px 11px 24px;
+    margin-bottom: 52px;
+}
+.mb-3 {
+        width: 120px;
+        margin-left: -144px;
+        margin-top: 6px;
+        padding: 5px 5px 5px 5px;
+}
+                /* footer */
+.foot-text-all{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.foot-text1{
+    max-width: 329px;
+}
+.text-opis p{
+    font-family: Rubik;
+    font-size: 18px;
+    line-height: 27px;
+    color: #555555;
+}
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram,
+.fa-linkedin-in{
+    color: #19BCE4;;
+    margin-right: 10px;
+}
+.foot-text2 p{
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #222222;
+}
+.home li{
+    margin-bottom: 10px;
+}
+.home li a{
+    font-family: Rubik;
+    font-size: 18px;
+    line-height: 27px;
+    color: #555555;
+}
+.foot-text3 p{
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #222222;
+}
+.servises li{
+    margin-bottom: 10px;
+}
+.servises li a{
+    font-family: Rubik;
+    font-size: 18px;
+    line-height: 27px;
+    color: #555555;
+}
+.foot-text4 p{
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #222222;
+}
+.about li{
+    margin-bottom: 10px;
+}
+.about li a{
+    font-family: Rubik;
+    font-size: 18px;
+    line-height: 27px;
+    color: #555555;
+}
+.foot-text5 p{
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #222222;
+}
+.сontact li{
+    margin-bottom: 10px;
+}
+.сontact li a{
+    font-family: Rubik;
+    font-size: 18px;
+    line-height: 27px;
+    color: #555555;
+}
+
+                        /* media */
+@media all and (max-width: 1195px){
+    .bangladesh {
+        margin-right: 15px;
+    }
+    .japan {
+        margin-right: 15px;
+    }
+    .london {
+        margin-right: 17px;
+        margin-left: 383px;
+    }
+}
+@media all and (max-width: 1155px){
+    .container {
+        max-width: 1140px;
+    }
+    .btn {
+        width: 165px;
+    }
+    .bangladesh {
+        margin-right: 0px;
+    }
+    .japan {
+        margin-right: 0px;
+    }
+    .london {
+        margin-right: 0px;
+        margin-left: 370px;
+    }
+    .who-text {
+        max-width: 530px;
+    }
+    .who-text h2 {
+        padding: 10px 0px 20px 0px;
+    }
+    .mb-3 {
+        width: 120px;
+        margin-left: -169px;
+    }
+}
+@media all and (max-width: 1135px){
+    .container {
+        max-width: 1130px;
+    }
+    .bangladesh {
+        margin-right: 41px;
+        height: 562px;
+    }
+    .london {
+        margin-left: 410px;
+        margin-top: -505px;
+    }
+    .india {
+        margin-top: -224px;
+        margin-left: 410px;
+    }
+}
+@media all and (max-width: 1061px){
+    .btn {
+        width: 120px;
+    }
+    .form-select {
+        width: 225px;
+    }
+    .about-text h2 {
+        font-size: 37px;
+        line-height: 45px;
+    }
+    .about-text p {
+        font-family: Rubik;
+        font-size: 15px;
+    }
+    .container {
+        max-width: 1015px;
+    }
+    .bed {
+        width: 450px;
+        margin-right: 50px;
+    }
+    .sofa {
+        margin-left: -227px;
+        margin-top: 393px;
+        width: 200px;
+    }
+    .who-text {
+        max-width: 430px;
+    }
+    .who-text P {
+        font-size: 12px;
+        line-height: 23px;
+    }
+    .foot-text1 {
+        max-width: 261px;
+    }
+    .text-opis p {
+        font-size: 10px;
+        line-height: 21px;
+    }
+    .foot-text2 p,
+    .foot-text3 p,
+    .foot-text4 p,
+    .foot-text5 p{
+        font-size: 16px;
+    }
+    .home li a {
+        font-size: 13px;
+    }
+    .home li {
+        margin-bottom: 0px;
+    }
+    .servises li a {
+        font-size: 13px;
+    }
+    .servises li {
+        margin-bottom: 0px;
+    }
+    .about li a {
+        font-size: 13px;
+    }
+    .about li {
+        margin-bottom: 0px;
+    }
+    .сontact li a{
+        font-size: 13px;
+    }
+    .сontact li{
+        margin-bottom: 0px;
+    }
+}
+@media all and (max-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+    .header-info {
+        padding: 30px 0px 30px;
+    }
+    .header-item a {
+        font-size: 13px;
+    }
+    .white a {
+        font-size: 13px;
+    }
+    .logotext span {
+        font-size: 13px;
+    }
+    .form-select {
+        width: 150px;
+        font-size: 11px;
+        margin-bottom: 15px;
+    }
+    .btn {
+        width: 74px;
+        font-size: 12px;
+    }
+    .row-cols-lg-auto {
+        background: none;
+    }
+    .search-form{
+        margin-left: 370px;
+        margin-top: -85px;
+    }
+    .bed {
+        width: 365px;
+        margin-right: 30px;
+    }
+    .sofa {
+        margin-left: -315px;
+        margin-top: 307px;
+        width: 180px;
+    }
+    .about-text h2 {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .about-text p {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .naushniki h5 {
+        font-size: 17px;
+        line-height: 0px;
+    }
+    .ruki h5 {
+        font-size: 17px;
+        line-height: 0px;
+    }
+    .naushniki {
+        margin-right: 20px;
+    }
+    .btn-about {
+        margin-top: -18px;
+        margin-left: 530px;
+    }
+    .box-text {
+        max-width: 255px;
+    }
+    .box-img {
+        margin-right: 10px;
+    }
+    .f-box {
+        display: flex;
+        align-items: center;
+        padding: 6px 0px 6px 0px;
+    }
+    .s-box {
+        display: flex;
+        align-items: center;
+        padding: 6px 0px 6px 0px;
+    }
+    .th-box {
+        display: flex;
+        align-items: center;
+        padding: 6px 0px 6px 0px;
+    }
+    .four-box {
+        display: flex;
+        align-items: center;
+        padding: 6px 0px 6px 0px;
+    }
+    .who-text {
+        max-width: 390px;
+    }
+    .mb-3 {
+        width: 90px;
+        margin-left: -130px;
+    }
+}
+@media all and (max-width: 890px){
+    .container {
+        max-width: 860px;
+    }
+    .white a {
+        padding: 8px 16px;
+        margin-left: 30px
+    }
+    .search-text h1 {
+        font-size: 53px;
+    }
+    .search-text p {
+        max-width: 386px;
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .search-form {
+        margin-left: 320px;
+    }
+    .btn-about a {
+        font-size: 14px;
+        padding: 11px 20px;
+    }
+    .big-letters h2 {
+        padding: 46px 0px 68px 0px;
+        font-size: 42px;
+        line-height: 1px;
+    }
+    .box-text {
+        max-width: 180px;
+    }
+    .imgbox h5 {
+        font-size: 14px;
+    }
+    .imgbox p {
+        font-size: 9px;
+        line-height: 15px;
+    }
+    img {
+        max-width: 80%;
+    }
+    .look-img {
+        margin-right: -55px;
+    }
+    .big-letters2 h2 {
+        padding: 60px 0px 16px 0px;
+        font-size: 38px;
+        line-height: 20px;
+    }
+    .podzag p {
+        font-size: 15px;
+        line-height: 10px;
+        margin-bottom: 25px
+    }
+    .place-text {
+        margin-left: 47px;
+    }
+    .bangladesh {
+        margin-right: 0px; 
+    }
+    .london {
+        margin-left: 368px;
+        margin-top: -400px;
+    }
+    .malaysia{
+        margin-top: -90px
+    }
+    .india {
+        margin-top: -175px;
+        margin-left: 368px;
+    }
+    .who-text {
+        max-width: 280px;
+    }
+    .who-text h2 {
+        font-size: 28px;
+        line-height: 0px;
+    }
+    .who-text P {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .who-text a {
+        font-size: 13px;
+        line-height: 1;
+        padding: 12px 15px 12px 15px;
+    }
+    .fa-chevron-right {
+        font-size: 11px;
+        margin-left: 11px;
+    }
+    .mail-text h2 {
+        font-size: 30px;
+        line-height: 10px;
+    }
+    .form-control {
+        width: 615px;
+        margin-bottom: 40px;
+    }
+    .mb-3 {
+        width: 80px;
+        margin-left: -111px;
+        margin-top: 9px;
+    }
+    .foot-text2 p,
+    .foot-text3 p,
+    .foot-text4 p,
+    .foot-text5 p{
+        font-size: 11px;
+    }
+    .home li a {
+        font-size: 9px;
+        line-height: 1;
+    }
+    .servises li a {
+        font-size: 9px;
+        line-height: 1;
+    }
+    .about li a {
+        font-size: 9px;
+        line-height: 1;
+    }
+    .сontact li a{
+        font-size: 9px;
+        line-height: 1;
+    }
+    .text-opis p {
+        font-size: 10px;
+        line-height: 16px;
+    }
+}   
+@media all and (max-width: 765px){
+    .header-item:not(:nth-child(5)) {
+        margin-right: 20px;
+    }
+    .search-form {
+        margin-left: 260px;
+    }
+    .about-all {
+        padding: 70px 0px 165px 0px;
+    }
+    .container {
+        max-width: 740px;
+    }
+    .bed {
+        width: 300px;
+        margin-right: 20px;
+    }
+    .sofa {
+        margin-left: -245px;
+        margin-top: 260px;
+        width: 150px;
+    }
+    .about-text span {
+        font-size: 15px;
+    }
+    .about-text h2 {
+        font-size: 20px;
+        line-height: 20px;
+        padding: 10px 0px 0px 0px;
+    }
+    .naushniki {
+        max-width: 140px;
+    }
+    .naushniki h5 {
+        font-size: 11px;
+        padding: 24px 0px 0px 0px;
+    }
+    .naushniki p {
+        font-size: 9px;
+        line-height: 10px;
+        margin-bottom: 0px;
+    }
+    .ruki {
+        max-width: 140px;
+    }
+    .ruki h5 {
+        font-size: 11px;
+        padding: 24px 0px 0px 0px;
+    }
+    .ruki p {
+        font-size: 9px;
+        line-height: 10px;
+    }
+    .btn-about a {
+        font-size: 9px;
+        padding: 7px 10px;
+    }
+    .btn-about {
+        margin-top: 0px;
+        margin-left: 425px;
+    }
+    .about-all {
+        padding: 40px 0px 85px 0px;
+    }
+    .big-letters h2 {
+        padding: 46px 0px 28px 0px;
+        font-size: 30px;
+    }
+    .box-text {
+        max-width: 130px;
+    }
+    .imgbox h5 {
+        font-size: 10px;
+    }
+    .imgbox p {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .big-letters2 h2 {
+        padding: 10px 0px 10px 0px;
+        font-size: 27px;
+        line-height: 20px;
+    }
+    .podzag p {
+        font-size: 12px;
+        line-height: 10px;
+        margin-bottom: 20px;
+    }
+    .bangladesh {
+        height: 410px;
+    }
+    .london {
+        margin: 0px 0px 0px 0px;
+    }
+    .japan {
+        margin: 0px 0px 0px 0px;
+    }
+    .malaysia {
+        margin: 0px 0px 0px 0px;
+    }
+    .india {
+        margin: 0px 0px 0px 0px;
+    }
+    .who-text {
+        max-width: 230px;
+    }
+    .who-text h2 {
+        font-size: 25px;
+    }
+    .who-text a {
+        font-size: 10px;
+    }
+    .who-text P {
+        margin-bottom: 12px;
+        font-size: 9px;
+        line-height: 14px;
+    }
+    .mail-text h2 {
+        font-size: 20px;
+        line-height: 0px;
+    }
+    .photo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media all and (max-width: 653px){
+    .container {
+        max-width: 645px;
+    }
+    .header-item a {
+        font-size: 11px;
+    }
+    .white a {
+        padding: 5px 10px;
+        margin-left: 20px;
+        font-size: 11px;
+    }
+    .logotext span {
+        font-size: 11px;
+    }
+    .search-text h1 {
+        font-size: 35px;
+    }
+    .search-text p {
+        max-width: 280px;
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .search-form {
+        margin-left: 210px;
+    }
+    .about-text h2 {
+        font-size: 16px;
+        line-height: 17px;
+    }
+    .about-text span {
+        font-size: 12px;
+    }
+    .about-text p {
+        font-size: 9px;
+        line-height: 12px;
+    }
+    .naushniki {
+        max-width: 100px;
+    }
+    .naushniki h5 {
+        font-size: 9px;
+        padding: 15px 0px 0px 0px;
+    }
+    .ruki {
+        max-width: 100px;
+    }
+    .ruki h5 {
+        font-size: 9px;
+        padding: 13px 0px 0px 0px;
+    }
+    .btn-about {
+        margin-left: 380px;
+    }
+    .box-text {
+        max-width: 80px;
+    }
+    .imgbox h5 {
+        font-size: 8px;
+    }
+    .imgbox p {
+        font-size: 6px;
+        line-height: 7px;
+    }
+    .look-img {
+        margin-right: -105px;
+    }
+    .who-text {
+        max-width: 180px;
+    }
+    .who-text h2 {
+        font-size: 15px;
+        padding: 10px 0px 10px 0px;
+    }
+    .who-text P {
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .who-text a {
+        font-size: 7px;
+        padding: 9px 9px 9px 9px;
+    }
+    .fa-chevron-right {
+        font-size: 8px;
+        margin-left: 4px;
+    }
+    .form-control {
+        width: 370px;
+    }
+    .foot-text1 {
+        max-width: 110px;
+    }
+    .text-opis p {
+        font-size: 7px;
+        line-height: 10px;
+    }
+}
+@media all and (max-width: 605px){
+    img {
+        max-width: 60%;
+    }
+    .container {
+        max-width: 560px;
+    }
+    .header-item:not(:nth-child(5)) {
+        margin-right: 13px;
+    }
+    .header-item a {
+        font-size: 10px;
+    }
+    .logotext span {
+        font-size: 10px;
+    }
+    .white a {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .search-form {
+        margin-left: 150px;
+    }
+    .look-img {
+        margin-right: -208px;
+    }
+    .place-text {
+        margin-left: 10px;
+    }
+    .bangladesh {
+        height: 300px;
+    }
+    .photo {
+        margin-left: 120px;
+    }
+    .who-text {
+        max-width: 120px;
+    }
+    .who-text h2 {
+        font-size: 12px;
+    }
+    .who-text P {
+        font-size: 4px;
+        line-height: 8px;
+    }
+    .who-text a {
+        padding: 6px 6px 6px 6px;
+    }
+    .who-all {
+        margin-bottom: 40px;
+    }
+    .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-linkedin-in {
+        margin-right: 5px;
+        font-size: 11px;
+    }
+    .foot-text2 p, .foot-text3 p, .foot-text4 p, .foot-text5 p {
+        margin-bottom: 0px;
+        font-size: 8px;
+    }
+    .foot-text1 {
+        max-width: 80px;
+    }
+    .text-opis p {
+        font-size: 6px;
+        line-height: 7px;
+        margin-bottom: 0px;
+    }
+}
+@media all and (max-width: 530px){
+    .container {
+        max-width: 520px;
+    }
+    .ruki {
+        max-width: 50px;
+    }
+    .naushniki {
+        max-width: 50px;
+    }
+    .bed {
+        width: 245px;
+    }
+    .sofa {
+        margin-left: -202px;
+        margin-top: 221px;
+        width: 120px;
+    }
+    .naushniki h5 {
+        font-size: 5px;
+    }
+    .ruki h5 {
+        font-size: 5px;
+    }
+    .about-text p{
+        margin-bottom: 5px;
+    }
+    .btn-about {
+        margin-left: 265px;
+    }
+    .photo {
+        margin-left: 150px;
+    }
+    .place-text h5 {
+        font-size: 15px;
+        line-height: 7px;
+    }
+    .place-text p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .place-text {
+        margin-left: 3px;
+    }
+    .about-icons {
+        display: none;
+    }
+    .big-letters h2 {
+        padding: 100px 0px 28px 0px;
+    }
+}
+@media all and (max-width: 525px){
+    .header-item:not(:nth-child(5)) {
+        margin-right: 6px;
+    }
+    .white a {
+        display: none;
+    }
+    .header-item a {
+        font-size: 9px;
+    }
+    .logotext span {
+        margin-bottom: -5px;
+        font-size: 9px;
+    }
+    .search-text h1 {
+        font-size: 25px;
+    }
+    .search-text p {
+        font-size: 9px;
+        line-height: 12px;
+    }
+    .search-form {
+        margin-left: 60px;
+    }
+    .sofa {
+        margin-left: -178px;
+        margin-top: 170px;
+    }
+    .about-text h2 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .btn-about a {
+        font-size: 7px;
+    }
+    .btn-about {
+        margin-left: 215px;
+    }
+    .big-letters h2 {
+        padding: 65px 0px 28px 0px;
+        font-size: 23px;
+    }
+    .imgbox {
+        display: block;
+    }
+    .f-box {
+        padding: 6px 0px 6px 10px;
+    }
+    .s-box {
+        padding: 6px 0px 6px 10px;
+    }
+    .th-box {
+        padding: 6px 0px 6px 10px;
+    }
+    .four-box {
+        padding: 6px 0px 6px 10px;
+    }
+    .places{
+        display: none;
+    }
+    .who-img {
+        margin-left: 0px;
+    }
+    .mail-text h2 {
+        font-size: 14px;
+        padding: 19px 0px 16px 0px;
+    }
+    .form-control {
+        width: 265px;
+    }
+    .mb-3 {
+        width: 60px;
+        margin-left: -88px;
+        font-size: 10px;
+    }
+    .foot-text-all {
+        display: flex;
+        margin-top: 35px;
+        flex-direction: column;
+    }
+    .text-opis{
+        display: none;
+    }
 }
