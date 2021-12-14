@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'PostNoBillsJaffna-Regular';
+  src: url('PostNoBillsJaffna-Regular.eot');
+  src: url('PostNoBillsJaffna-Regular.eot?#iefix') format('embedded-opentype'),
+       url('PostNoBillsJaffna-Regular.svg#PostNoBillsJaffna-Regular') format('svg'),
+       url('PostNoBillsJaffna-Regular.ttf') format('truetype'),
+       url('PostNoBillsJaffna-Regular.woff') format('woff'),
+       url('PostNoBillsJaffna-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -65,6 +65,17 @@ body{
     padding: 11px 25px;
     margin-left: 120px;
 }
+.header-item a,
+.header-item a:after,
+.header-item a:before {
+  transition: all .5s;
+}
+.header-item a:hover {
+    color: #19BCE4;
+}
+.white a:hover{
+    color: #555;
+}
                     /* search */
 .search{
     height: 700px;
@@ -211,6 +222,14 @@ body{
     border-radius: 6px;
     padding: 16px 32px;
 }
+.btn-about a:hover {
+    background: #555555;
+    transform: translate(0, 0.25em);
+}
+  .btn-about a:hover::before {
+    box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #19BCE4;
+    transform: translate3d(0, 0.5em, -1em);
+}
         /* looking for */
 .looking{
     background: #F8FDFE;
@@ -237,6 +256,9 @@ body{
     box-sizing: border-box;
     margin-bottom: 16px;
 }
+.f-box:hover{
+    background: rgba(25, 188, 228, 0.1);
+}
 .s-box{
     display: flex;
     padding: 24px 65px 24px 24px;
@@ -244,6 +266,9 @@ body{
     border: 0.5px solid rgba(25, 188, 228, 0.2);
     box-sizing: border-box;
     margin-bottom: 16px;
+}
+.s-box:hover{
+    background: rgba(25, 188, 228, 0.1);
 }
 .th-box{
     display: flex;
@@ -253,6 +278,9 @@ body{
     box-sizing: border-box;
     margin-bottom: 16px;
 }
+.th-box:hover{
+    background: rgba(25, 188, 228, 0.1);
+}
 .four-box{
     display: flex;
     padding: 24px 65px 24px 24px;
@@ -260,6 +288,9 @@ body{
     border: 0.5px solid rgba(25, 188, 228, 0.2);
     box-sizing: border-box;
     margin-bottom: 76px;
+}
+.four-box:hover{
+    background: rgba(25, 188, 228, 0.1);
 }
 .box-text{
     max-width: 375px;
@@ -391,6 +422,14 @@ body{
 .who-img{
     margin-left: 216px;
 }
+.who-text a:hover {
+    background: #555555;
+    transform: translate(0, 0.25em);
+}
+.who-text a:hover::before {
+    box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #19BCE4;
+    transform: translate3d(0, 0.5em, -1em);
+}
             /* subscribe */
 .mail{
     display: flex;
@@ -505,6 +544,19 @@ body{
     line-height: 27px;
     color: #555555;
 }
+.сontact li a:hover {
+    color: #19BCE4;
+}
+.about li a:hover {
+    color: #19BCE4;
+}
+.servises li a:hover {
+    color: #19BCE4;
+}
+.home li a:hover {
+    color: #19BCE4;
+}
+
 
                         /* media */
 @media all and (max-width: 1195px){
@@ -1290,5 +1342,10 @@ body{
     }
     .text-opis{
         display: none;
+    }
+}
+@media all and (max-width: 400px){
+    .container {
+        max-width: 420px;
     }
 }

@@ -63,6 +63,11 @@ a{
 .info ul li:last-child a{
     color: rgba(62, 34, 3, 0.82);
 }
+
+.info ul li a:hover{
+    letter-spacing: 5px;
+}
+
 .container{
     max-width: 1156px;
     margin: 0 auto;
