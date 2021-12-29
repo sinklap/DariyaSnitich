@@ -36,14 +36,12 @@ img{
     border-radius: 5px;
     padding: 15px 30px 15px 30px;
 }
-form {
+.d3 form {
     position: relative;
     width: 443px;
     margin: 0 auto;
     border: 2px solid #A9A9A9;
     border-radius: 9px;
-}
-.d3 form {
     background: #E5E5E5;
 }
 .d3 input, .d3 button {
@@ -120,6 +118,7 @@ form {
 .fa-whatsapp{
     font-size: 30px;
     color: #000000;
+    margin-left: 20px;
 }
 .rezim{
     display: flex;
@@ -138,4 +137,223 @@ form {
     font-size: 14px;
     line-height: 1;
     color: #000000;
+}
+                    /* main photo */
+.main_photo{
+    display: flex;
+    align-items: center;
+    height: 600px;
+    background-color: #A1E2EB;
+    background-image: url(../img/ballonmain.jpg);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: right center;  
+}
+.sale{
+    margin-bottom: 60px;
+}
+.sale h1{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 1;
+    color: #FFFFFF;
+}
+.sale h2{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 63px;
+    line-height: 1;
+    color: #FFFFFF;
+}
+.btns a:first-child{
+    display: inline-block;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1;
+    color: #2D2D2D;
+    background: #FFFFFF;
+    border-radius: 13px;
+    padding: 25px 50px;
+    margin-right: 40px;
+}
+.btns a:last-child{
+    display: inline-block;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 13px;
+    padding: 25px 40px;
+}
+                /* popular */
+.text_tovar{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: baseline;
+}
+.text_tovar h4{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-right: 40px;
+}
+.text_tovar a{
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.popular_ball{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ball_purple_silver{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ball_purple_silver a{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    color: #000000;
+    max-width: 311px;
+}
+                /* liders */
+.lider_ball{
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.price span:first-child{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.price span:nth-child(2){
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    text-decoration-line: line-through;
+    color: #8B8B8B;
+}
+.price span:last-child{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    color: #FF32A1;
+}
+.ball_pink a{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    color: #3A3A3A;
+}
+                /* price 5 */
+.price5{
+    display: flex;
+    align-items: center;
+    height: 476px;
+    background: #F088F2;
+    background-image: url(../img/girlball.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    margin-top: 115px;
+}
+.text_form_price{
+    margin-left: 650px;
+}
+.text_price h2{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.text_price h4{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.form_price input[type="tel"]{
+    width: 473px;
+    height: 65px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    border: 2px solid #FFFFFF;
+}
+.form_price input[type="submit"]{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 28.7392px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    border-radius: 25px;
+    border: 2px solid #FFFFFF;
+    padding: 20px 95px;
+    background: none;
+}
+            /* footer */
+.footer{
+    margin-top: 40px;
+}
+.foot_info{
+    display: flex;
+    justify-content: space-between;
+}
+.contact h5{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.contact a{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 1;
+    color: #000000;
+}
+.adress h5{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1;
+    color: #000000;
+    margin-bottom: 25px;
 }
