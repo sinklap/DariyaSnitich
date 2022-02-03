@@ -296,3 +296,26 @@ body{
 .logo1{
     margin-top: 80px;
 }
+/* html */
+.click_text p{
+    font-family: Shippori Mincho;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 1;
+    color: #2A2B2E;
+    opacity: 0.2;
+    writing-mode: vertical-lr;
+}
+.develop_all{
+    display: flex;
+    margin-top: 75px;
+}
+.develop_img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.develop_img a img{
+    margin-right: 75px;
+    margin-bottom: 40px;
+}
