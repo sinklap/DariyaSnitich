@@ -16,16 +16,18 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .container{
-    max-width: 1600px;
+    max-width: 1180px;
     margin-right: auto;
     margin-left: auto;
 }
                     /* header */
+.header{
+    background: #000000;
+}
 .header-info{
     display: flex;
     align-items: center;
-    background: #000000;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 80px;
 }
 .logotext{
@@ -47,7 +49,7 @@ body{
     margin-left: 58px;
 }
 .last a{
-    margin-left: 380px;
+    margin-left: 438px;
 }
 .header-item a:hover {
     color: #F9804B;
@@ -67,8 +69,7 @@ body{
 }
 .text-but{
     width: 500px;
-    margin-left: 807px;
-    margin-right: 328px;
+    margin-left: 585px;
 }
 .panda-text img{
     margin-top: 12px;
@@ -137,4 +138,45 @@ body{
     color: #FFFFFF;
     padding: 16px 95px;
     margin-left: 180px;
+}
+                /* chb */
+.chb{
+    height: 605px;
+    background-image: url(../img/flower_foto1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.ded{
+    padding: 140px 0px 0px 0px;
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+}
+.ded-text{
+    width: 465px;
+}
+.ded-text h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #333B41;
+    margin-top: 0px;
+}
+.ded-text p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333B41;
+}
+.ded-text h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333B41;
 }
