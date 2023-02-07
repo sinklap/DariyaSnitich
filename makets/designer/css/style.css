@@ -280,11 +280,34 @@ body {
 
 .cards_web a img {
     transition: 1s;
-    /* Время эффекта */
     display: block;
 }
 
 .cards_web a img:hover {
     transform: scale(1.2);
-    /* Увеличиваем масштаб */
+}
+
+/* branding page */
+
+.cards_brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards_brand a {
+    margin-top: 60px;
+}
+
+.cards_brand a img {
+    border-radius: 5px;
+}
+
+.cards_brand a img {
+    transition: 1s;
+    display: block;
+}
+
+.cards_brand a img:hover {
+    transform: scale(1.2);
 }
